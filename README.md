@@ -1,1 +1,1 @@
-Various unofficial scripts for configurating various programs.
+Various unofficial scripts for configuring various programs.
