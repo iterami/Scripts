@@ -1,2 +1,1 @@
-Config-Scripts
-==============
+Various unofficial scripts for configurating various programs.
