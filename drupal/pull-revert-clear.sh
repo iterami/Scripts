@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# No arguments.
+
 # Pull changes from git.
 git pull
 
