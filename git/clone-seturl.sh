@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Path to the folder in which your cloned
-#         repository folder will be created.
+#   $1: Relative path to the folder in which your
+#         cloned repository folder will be created.
 #   $2: The GitHub username of the owner of the
 #         cloned repository.
 #   #3: The name of the cloned GitHub repository.

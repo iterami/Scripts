@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Path to the folder in which the cloned
-#         repository folders will be created.
+#   $1: Relative path to the folder in which the
+#         cloned repository folders will be created.
 #
 # Example: sh clone-iterami-repositories.sh iterami_repositories/
 

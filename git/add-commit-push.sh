@@ -1,12 +1,12 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Path to the git repo root.
+#   $1: Relative path to the git repository root.
 #   $2: Commit message.
 #
-# Example: sh add-commit-push.sh repo/ 'This is a commit message!'
+# Example: sh add-commit-push.sh repository/ 'This is a commit message!'
 
-# Navigate to the repo root folder.
+# Navigate to the repository root folder.
 cd $1
 
 # Add all changes.
