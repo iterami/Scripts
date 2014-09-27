@@ -43,7 +43,7 @@ GNOME-PluginTemplates
 Guess.htm
 Hallway-2d3D.htm
 Hrad.htm
-Inventory.htm
+Inventory.php
 iterami.github.io
 iterami-SiteBackup
 Jetpack.htm
@@ -57,6 +57,7 @@ Particleball.htm
 PasswordGenerator.htm
 PixelEditor.htm
 Platform-2D.htm
+Platform-2D.sh
 Plus.htm
 Poem.htm
 Python-WebScraper
