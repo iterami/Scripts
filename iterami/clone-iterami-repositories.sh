@@ -33,12 +33,14 @@ D2LoD-Builds
 D2LoD-RuneCalculator.htm
 Dropdown.htm
 Drupal-.infoGenerator
+Drupal-Templates
 Engine.htm
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
 FractalRunner-2D3D.htm
 gedit-Plugin-MenuEnhancer
 GetIP.php
+GitHub-API.htm
 GNOME-PluginTemplates
 Guess.htm
 Hallway-2d3D.htm
@@ -89,6 +91,7 @@ TextEditor.htm
 TextInfo.htm
 TimeColors.htm
 Timer.htm
+Trains-2D.htm
 Tubes-2D3D.htm
 UnitConverter.htm
 UniverseConstructor.htm
