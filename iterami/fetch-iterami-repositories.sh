@@ -2,9 +2,9 @@
 
 # Required arguments:
 #   $1: Relative path to the folder in which the
-#         cloned repository folders will be created.
+#         iterami repositories are/will_be stored.
 #
-# Example: sh clone-iterami-repositories.sh iterami_repositories/
+# Example: sh fetch-iterami-repositories.sh iterami_repositories/
 
 # Navigate to the target folder name
 #   and create it if it doesn't exist.
@@ -99,8 +99,18 @@ Warped.htm
 WindowInfo.htm
 '
 
-# Clone each repository.
+# Pull updates for cloned iterami repositories
+#   or clone them if they haven't been cloned yet.
 for repository in $repositories
 do
-    git clone https://github.com/iterami/$repository
+    if [ -d $repository ]
+    then
+        echo 'pulling https://github.com/iterami/'$repository
+        cd $repository
+        git pull
+        cd ..
+
+    else
+        git clone https://github.com/iterami/$repository
+    fi
 done
