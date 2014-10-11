@@ -97,6 +97,7 @@ UnitConverter.htm
 UniverseConstructor.htm
 Warped.htm
 WindowInfo.htm
+WoW-Macros
 '
 
 # Pull updates for cloned iterami repositories
