@@ -77,10 +77,10 @@ Slots.htm
 Snakish.htm
 SnowyMountains.htm
 SolarSystem-2D.htm
-Speedbutton.htm
+SpeedButton.htm
 SpeedShape.htm
-Speedtext.htm
-Speedtype.htm
+SpeedText.htm
+SpeedType.htm
 Starfield-2D3D.htm
 Sudoku.htm
 TemplateEngine.php
