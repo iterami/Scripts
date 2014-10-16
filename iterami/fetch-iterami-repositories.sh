@@ -112,6 +112,6 @@ do
         cd ..
 
     else
-        git clone https://github.com/iterami/$repository
+        git clone https://github.com/iterami/$repository.git
     fi
 done
