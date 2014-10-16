@@ -78,7 +78,7 @@ Snakish.htm
 SnowyMountains.htm
 SolarSystem-2D.htm
 Speedbutton.htm
-Speedshape.htm
+SpeedShape.htm
 Speedtext.htm
 Speedtype.htm
 Starfield-2D3D.htm
