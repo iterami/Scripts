@@ -67,7 +67,7 @@ Python-WebServer
 Rain.htm
 ReactionTest.htm
 RNG.htm
-Rock-Paper-Scissors.htm
+RockPaperScissors.htm
 RS-CombatLevel.htm
 RS-LevelCompare.htm
 RTS-2D.htm
