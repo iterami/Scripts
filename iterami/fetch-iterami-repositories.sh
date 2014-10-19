@@ -16,7 +16,7 @@ repositories='
 Aquarium-2D.htm
 Archive
 ArtEditor.htm
-Automation-Scripts
+AutomationScripts
 BaseConverter.htm
 Behat-DrupalSteps
 Blog.php
