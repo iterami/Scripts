@@ -14,6 +14,7 @@ cd $1
 # An array of all iterami repositories.
 repositories='
 Aquarium-2D.htm
+ArcaneSanctuary.htm
 Archive
 ArtEditor.htm
 AutomationScripts
