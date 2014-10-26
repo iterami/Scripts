@@ -19,7 +19,6 @@ Archive
 ArtEditor.htm
 AutomationScripts
 BaseConverter.htm
-Behat-DrupalSteps
 Blog.php
 Calculator.htm
 Click.htm
@@ -33,8 +32,8 @@ Countdown.htm
 D2LoD-Builds
 D2LoD-RuneCalculator.htm
 Dropdown.htm
+Drupal-Components
 Drupal-.infoGenerator
-Drupal-Templates
 Engine.htm
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
