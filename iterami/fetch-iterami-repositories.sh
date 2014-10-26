@@ -45,6 +45,7 @@ GNOME-PluginTemplates
 Guess.htm
 Hallway-2d3D.htm
 Hrad.htm
+InterestCalculator.htm
 Inventory.php
 iterami.github.io
 iterami-SiteBackup
