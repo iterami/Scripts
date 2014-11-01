@@ -5,9 +5,9 @@
 #         repository containing the commit you wish
 #         to modify is located.
 #   $2: The hash of the commit you wish to modify.
-#   $3: The date you wish to use.
+#   $3: The date you wish to use, in timestamp format.
 #
-# Example: sh commit-date-change.sh 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe "Fri Aug 22 12:00:00 2014 -0000"
+# Example: sh commit-date-change.sh 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe 1408708800
 
 # Navigate to the target folder name.
 cd $1
