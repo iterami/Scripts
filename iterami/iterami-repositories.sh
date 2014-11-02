@@ -22,6 +22,7 @@ BaseConverter.htm
 Blog.php
 Calculator.htm
 Click.htm
+Clock.htm
 ColorDrops.htm
 ColorSelector.htm
 ColorSquares.htm
