@@ -40,6 +40,7 @@ Engine.htm
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
 FractalRunner-2D3D.htm
+Functions.php
 gedit-Plugin-MenuEnhancer
 GetIP.php
 GitHub-API.htm
@@ -85,7 +86,6 @@ SpeedShape.htm
 SpeedText.htm
 SpeedType.htm
 Starfield-2D3D.htm
-strtotime.php
 Sudoku.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
