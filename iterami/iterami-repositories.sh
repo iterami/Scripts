@@ -85,6 +85,7 @@ SpeedShape.htm
 SpeedText.htm
 SpeedType.htm
 Starfield-2D3D.htm
+strtotime.php
 Sudoku.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
