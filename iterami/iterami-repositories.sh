@@ -35,7 +35,7 @@ D2LoD-RuneCalculator.htm
 DrinkingGames
 Dropdown.htm
 Drupal-Components
-Drupal-.infoGenerator
+Drupal-.infoGenerator.htm
 Engine.htm
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
@@ -46,7 +46,7 @@ GetIP.php
 GitHub-API.htm
 GNOME-PluginTemplates
 Guess.htm
-Hallway-2d3D.htm
+Hallway-2D3D.htm
 Hrad.htm
 InterestCalculator.htm
 Inventory.php
