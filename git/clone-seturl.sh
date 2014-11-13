@@ -10,6 +10,13 @@
 #
 # Example: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
 
+# Check if at least 4 arguments were passed.
+if [ $# -lt 4 ]
+then
+    echo 'Missing arguments.'
+    exit 2
+fi
+
 # Navigate to the target folder name
 #   and create it if it doesn't exist.
 mkdir -p $1

@@ -6,6 +6,13 @@
 #
 # Example: sh iterami-repositories.sh iterami_repositories/
 
+# Check if at least 1 argument was passed.
+if [ $# -lt 1 ]
+then
+    echo 'Missing argument.'
+    exit 2
+fi
+
 # Navigate to the target folder name
 #   and create it if it doesn't exist.
 mkdir -p $1

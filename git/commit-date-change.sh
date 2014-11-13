@@ -9,6 +9,13 @@
 #
 # Example: sh commit-date-change.sh 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe 1408708800
 
+# Check if at least 3 arguments were passed.
+if [ $# -lt 3 ]
+then
+    echo 'Missing arguments.'
+    exit 2
+fi
+
 # Navigate to the target folder name.
 cd $1
 

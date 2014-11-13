@@ -6,6 +6,13 @@
 #
 # Example: sh add-commit-push.sh repository/ 'This is a commit message!'
 
+# Check if at least 2 arguments were passed.
+if [ $# -lt 2 ]
+then
+    echo 'Missing arguments.'
+    exit 2
+fi
+
 # Navigate to the repository root folder.
 cd $1
 

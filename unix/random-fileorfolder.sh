@@ -6,6 +6,13 @@
 #
 # Example: sh random-fileorfolder.sh target/folder/
 
+# Check if at least 1 argument was passed.
+if [ $# -lt 1 ]
+then
+    echo 'Missing argument.'
+    exit 2
+fi
+
 # Navigate to the target folder.
 cd $1
 

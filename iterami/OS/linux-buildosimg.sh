@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# No arguments.
+
 # create os.bin
 nasm -f bin kernel/kernel.asm -o os.bin
 
