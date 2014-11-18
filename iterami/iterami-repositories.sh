@@ -126,4 +126,6 @@ do
     else
         git clone https://github.com/iterami/$repository.git
     fi
+
+    echo
 done
