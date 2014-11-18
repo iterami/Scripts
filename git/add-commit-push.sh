@@ -18,6 +18,7 @@ cd $1
 
 # Add all changes.
 git add .
+git add . -u
 
 # Commit the changes.
 git commit -m $2
