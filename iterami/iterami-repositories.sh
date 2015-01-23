@@ -77,8 +77,6 @@ Platform-2D.htm
 Platform-2D.sh
 Plus.htm
 Poem.htm
-Python-WebScraper
-Python-WebServer
 Rain-2D.htm
 ReactionTest.htm
 RNG.htm
@@ -112,6 +110,8 @@ Tubes-2D3D.htm
 UnitConverter.htm
 UniverseConstructor.htm
 Warped.htm
+WebScraper.py
+WebServer.py
 WindowInfo.htm
 WoW-Macros
 '
