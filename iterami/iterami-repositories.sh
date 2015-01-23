@@ -61,8 +61,8 @@ Hallway-2D3D.htm
 Hrad.htm
 InterestCalculator.htm
 Inventory.php
+iterami.com
 iterami.github.io
-iterami-SiteBackup
 Jetpack.htm
 KeyInfo.htm
 LayeredSnake-2d3D.htm
@@ -96,6 +96,7 @@ SpeedButton.htm
 SpeedShape.htm
 SpeedText.htm
 SpeedType.htm
+Standards
 Starfield-2D3D.htm
 Sudoku.htm
 TemplateEngine.php
