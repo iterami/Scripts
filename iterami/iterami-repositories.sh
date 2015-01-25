@@ -53,7 +53,6 @@ ExperienceCalculator.htm
 FractalRunner-2D3D.htm
 Functions.php
 gedit-Plugin-MenuEnhancer
-GetIP.php
 GitHub-API.htm
 GNOME-PluginTemplates
 Guess.htm
@@ -61,6 +60,7 @@ Hallway-2D3D.htm
 Hrad.htm
 InterestCalculator.htm
 Inventory.php
+IP.php
 iterami.com
 iterami.github.io
 Jetpack.htm
