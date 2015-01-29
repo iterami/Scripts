@@ -70,7 +70,7 @@ Match.htm
 MC-ResourcePacks
 Music.htm
 OS
-Particleball.htm
+Particleball-2D.htm
 PasswordGenerator.htm
 PixelEditor.htm
 Platform-2D.htm
