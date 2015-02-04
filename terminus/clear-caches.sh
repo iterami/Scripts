@@ -3,7 +3,7 @@
 # Required arguments:
 #   $1: Site name.
 #
-# Example: sh clear-cache.sh SiteName
+# Example: sh clear-caches.sh SiteName
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]
