@@ -45,7 +45,6 @@ D2LoD-RuneCalculator.htm
 DrinkingGames
 Dropdown.htm
 Drupal-Components
-Drupal-.infoGenerator.htm
 Engine.htm
 Engine.htm-Projects
 eog-Plugin-MenuEnhancer
