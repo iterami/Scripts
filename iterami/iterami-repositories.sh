@@ -111,6 +111,7 @@ UniverseConstructor.htm
 Warped.htm
 WebScraper.py
 WebServer.py
+Wiki.php
 WindowInfo.htm
 WoW-Macros
 '
