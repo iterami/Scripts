@@ -57,6 +57,7 @@ GNOME-PluginTemplates
 Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
+Info.php
 InterestCalculator.htm
 Inventory.php
 IP.php
