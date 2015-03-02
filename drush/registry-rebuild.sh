@@ -8,3 +8,6 @@ drush dl rebuild_registry -n
 
 # Rebuild the registry.
 drush registry-rebuild
+
+# Clear all caches.
+drush cache-clear all
