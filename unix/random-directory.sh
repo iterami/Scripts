@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the folder from
-#         which to return a random folder.
+#   $1: Relative path to the directory from
+#         which to return a random directory.
 #
-# Example: sh random-folder.sh target/folder/
+# Example: sh random-directory.sh target/directory/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 2 ]
@@ -13,5 +13,5 @@ then
     exit 2
 fi
 
-# Return a random folder from the target folder.
+# Return a random directory from the target directory.
 find $1 -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | shuf -n1

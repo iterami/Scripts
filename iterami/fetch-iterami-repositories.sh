@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the folder in which the
+#   $1: Relative path to the directory in which the
 #         iterami repositories are/will_be stored.
 #
 # Example: sh fetch-iterami-repositories.sh iterami_repositories/

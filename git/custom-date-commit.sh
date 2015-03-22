@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the folder in which the
+#   $1: Relative path to the directory in which the
 #         repository containing the commit you wish
 #         to modify is located.
 #   $2: Commit message.
@@ -16,7 +16,7 @@ then
     exit 2
 fi
 
-# Navigate to the repository root folder.
+# Navigate to the repository root directory.
 cd $1
 
 # Add all changes.

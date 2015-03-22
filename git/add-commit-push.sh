@@ -13,7 +13,7 @@ then
     exit 2
 fi
 
-# Navigate to the repository root folder.
+# Navigate to the repository root directory.
 cd $1
 
 # Add all changes.

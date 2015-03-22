@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the folder in which the
+#   $1: Relative path to the directory in which the
 #         iterami repositories are/will_be stored.
 #
 # Example: sh iterami-repositories.sh iterami_repositories/
@@ -13,7 +13,7 @@ then
     exit 2
 fi
 
-# Navigate to the target folder name
+# Navigate to the target directory name
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1

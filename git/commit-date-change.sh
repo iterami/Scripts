@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the folder in which the
+#   $1: Relative path to the directory in which the
 #         repository containing the commit you wish
 #         to modify is located.
 #   $2: The hash of the commit you wish to modify.
@@ -16,7 +16,7 @@ then
     exit 2
 fi
 
-# Navigate to the target folder name.
+# Navigate to the target directory name.
 cd $1
 
 # Modify the date of the specified commit.
