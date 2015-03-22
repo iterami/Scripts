@@ -66,6 +66,7 @@ iterami.github.io
 Jetpack.htm
 KeyInfo.htm
 LayeredSnake-2d3D.htm
+LocalStorage.htm
 Match.htm
 MC-ResourcePacks
 Music.htm
