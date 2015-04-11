@@ -38,6 +38,7 @@ ColorSelector.htm
 ColorSquares.htm
 ColorSteps.htm
 ColorWaves.htm
+ConfigFiles
 ContactForm.php
 Countdown.htm
 D2LoD-Builds
