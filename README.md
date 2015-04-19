@@ -1,1 +1,4 @@
-Various unofficial scripts for automating various tasks.
+AutomationScripts
+-----------------
+
+Various unofficial CC0 scripts for automating various tasks.
