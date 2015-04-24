@@ -47,6 +47,7 @@ DrinkingGames
 Dropdown.htm
 Drupal-Components
 Duel.htm
+EmojiText.htm
 Engine.htm
 Engine.htm-Projects
 eog-Plugin-MenuEnhancer
