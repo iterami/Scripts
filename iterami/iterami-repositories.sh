@@ -61,6 +61,7 @@ Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
 Info.php
+Integer-to-Decimal
 InterestCalculator.htm
 Inventory.php
 IP.php
