@@ -45,7 +45,7 @@ D2LoD-Builds
 D2LoD-RuneCalculator.htm
 DrinkingGames
 Dropdown.htm
-Drupal-Components
+Drupal-Templates
 Duel.htm
 EmojiText.htm
 Engine.htm
