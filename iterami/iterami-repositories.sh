@@ -67,7 +67,7 @@ Inventory.php
 IP.php
 iterami.com
 iterami.github.io
-Jetpack.htm
+Jetpack-2D.htm
 KeyInfo.htm
 LayeredSnake-2d3D.htm
 LocalStorage.htm
