@@ -30,7 +30,6 @@ Avoidance-2D.htm
 BaseConverter.htm
 Blog.php
 Calculator.htm
-Callipepla
 Click.htm
 Clock.htm
 ColorDrops.htm
@@ -45,6 +44,8 @@ D2LoD-Builds
 D2LoD-RuneCalculator.htm
 DrinkingGames
 Dropdown.htm
+Drupal-Callipepla
+Drupal-Integer-to-Decimal
 Drupal-Templates
 Duel.htm
 EmojiText.htm
@@ -61,7 +62,6 @@ Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
 Info.php
-Integer-to-Decimal
 InterestCalculator.htm
 Inventory.php
 IP.php
