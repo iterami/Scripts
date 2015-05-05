@@ -133,11 +133,13 @@ do
         echo 'pulling https://github.com/iterami/'$repository
         cd $repository
         git pull
-        cd ..
 
     else
         git clone https://github.com/iterami/$repository.git
+        echo 'cloned '$repository
     fi
+
+    cd ..
 
     echo
 done
