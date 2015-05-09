@@ -17,7 +17,7 @@ then
     exit 2
 fi
 
-# Navigate to the target directory name
+# Navigate to the target directory
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1
@@ -25,8 +25,8 @@ cd $1
 # git clone the repository from GitHub.
 git clone http://github.com/$2/$3
 
-# Navigate to the directory of the cloned repository.
+# Navigate to the root directory of the cloned repository.
 cd $3
 
-# Set the remote url with git.
+# Set the origin remote url.
 git remote set-url origin https://$4@github.com/$2/$3.git

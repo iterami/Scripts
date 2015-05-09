@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the git repository root.
+#   $1: Relative path to the root directory of the
+#         repository you wish to modify.
 #   $2: Commit message.
 #
 # Example: sh add-commit-push.sh repository/ 'This is a commit message!'
