@@ -20,6 +20,7 @@ cd $1
 
 # An array of all iterami repositories.
 repositories='
+9YG0E6r.htm
 Alarm.htm
 Aquarium-2D.htm
 ArcaneSanctuary.htm
