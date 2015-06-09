@@ -45,8 +45,8 @@ D2LoD-Builds
 D2LoD-RuneCalculator.htm
 DrinkingGames
 Dropdown.htm
-Drupal-Callipepla
-Drupal-Integer-to-Decimal
+Drupal-callipepla
+Drupal-integer_to_decimal
 Drupal-Templates
 Duel.htm
 EmojiText.htm
