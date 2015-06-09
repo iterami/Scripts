@@ -48,6 +48,7 @@ Dropdown.htm
 Drupal-callipepla
 Drupal-integer_to_decimal
 Drupal-Templates
+Drupal-workflow_transitions_roles_fix
 Duel.htm
 EmojiText.htm
 Engine.htm
