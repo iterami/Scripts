@@ -137,7 +137,7 @@ do
 
     else
         git clone https://github.com/iterami/$repository.git
-        echo 'cloned '$repository
+        echo 'cloned https://github.com/iterami/'$repository
     fi
 
     cd ..
