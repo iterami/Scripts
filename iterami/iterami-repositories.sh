@@ -31,6 +31,7 @@ Avoidance-2D.htm
 BaseConverter.htm
 Blog.php
 Calculator.htm
+Chrome-ExtensionTemplates
 Click.htm
 Clock.htm
 ColorDrops.htm
