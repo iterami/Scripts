@@ -32,6 +32,7 @@ BaseConverter.htm
 Blog.php
 Calculator.htm
 Chrome-ExtensionTemplates
+Chrome-YouTubeSimplifier
 Click.htm
 Clock.htm
 ColorDrops.htm
