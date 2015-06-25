@@ -31,6 +31,7 @@ Avoidance-2D.htm
 BaseConverter.htm
 Blog.php
 Calculator.htm
+Chrome-DarkTheme
 Chrome-ExtensionTemplates
 Chrome-YouTubeSimplifier
 Click.htm
