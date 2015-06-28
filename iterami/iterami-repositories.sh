@@ -57,7 +57,6 @@ Duel.htm
 EmojiText.htm
 Empty
 Engine.htm
-Engine.htm-Projects
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
 Fireworks-2D.htm
