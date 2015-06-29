@@ -95,6 +95,7 @@ Rain-2D.htm
 ReactionTest.htm
 RNG.htm
 RockPaperScissors.htm
+RPG-2D.htm
 RS-CombatLevel.htm
 RS-LevelCompare.htm
 RTS-2D.htm
