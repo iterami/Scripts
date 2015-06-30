@@ -55,7 +55,6 @@ Drupal-Templates
 Drupal-workflow_transitions_roles_fix
 Duel.htm
 EmojiText.htm
-Empty
 Engine.htm
 eog-Plugin-MenuEnhancer
 ExperienceCalculator.htm
