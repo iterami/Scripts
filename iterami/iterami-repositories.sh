@@ -51,6 +51,7 @@ Dropdown.htm
 Drupal-callipepla
 Drupal-delete_ghost_fields
 Drupal-integer_to_decimal
+Drupal-move_field_description
 Drupal-Templates
 Drupal-workflow_transitions_roles_fix
 Duel.htm
