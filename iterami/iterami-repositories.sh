@@ -73,7 +73,6 @@ Info.php
 InterestCalculator.htm
 Inventory.php
 IP.php
-iterami.com
 iterami.github.io
 Jetpack-2D.htm
 KeyInfo.htm
