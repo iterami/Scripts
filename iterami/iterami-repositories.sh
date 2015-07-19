@@ -96,6 +96,7 @@ ReactionTest.htm
 RNG.htm
 RockPaperScissors.htm
 RPG-Above.htm
+RPG-Side.htm
 RS-CombatLevel.htm
 RS-LevelCompare.htm
 RTS-2D.htm
