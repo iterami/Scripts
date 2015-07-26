@@ -81,6 +81,7 @@ LocalStorage.htm
 Match.htm
 MC-ResourcePacks
 Music-Local.htm
+Music-Server.htm
 OS
 Particleball-2D.htm
 ParticleRun-2D.htm
