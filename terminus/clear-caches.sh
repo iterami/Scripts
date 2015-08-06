@@ -12,7 +12,7 @@ then
     exit 2
 fi
 
-# Create a new backup for each environment.
+# Clear caches for dev, test, and live environments.
 terminus site clear-caches --env=dev --site=$1
 terminus site clear-caches --env=test --site=$1
 terminus site clear-caches --env=live --site=$1
