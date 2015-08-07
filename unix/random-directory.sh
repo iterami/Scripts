@@ -7,7 +7,7 @@
 # Example: sh random-directory.sh target/directory/
 
 # Check if at least 1 argument was passed.
-if [ $# -lt 2 ]
+if [ $# -lt 1 ]
 then
     echo 'Missing argument.'
     exit 2
