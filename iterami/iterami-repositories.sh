@@ -121,6 +121,7 @@ TerminalQuest.htm
 TextEditor.htm
 TextInfo.htm
 TimeColors.htm
+Timeline.js
 Timer.htm
 Trains-2D.htm
 Trains-3D.htm
