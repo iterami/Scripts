@@ -18,9 +18,9 @@ cd $1
 
 # Checkout the gh-pages branch
 #   and merge master into it.
-git checkout gh-pages  
-git merge master  
+git checkout -B gh-pages
+git merge master
 
 # Remove the master branch.
-git push origin :master  
-git branch -d master  
+git push origin :master
+git branch -d master
