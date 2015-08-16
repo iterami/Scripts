@@ -17,10 +17,15 @@ fi
 cd $1
 
 # Checkout the gh-pages branch
-#   and merge master into it.
+#   and merge master into it
+#   and push it to the origin.
 git checkout -B gh-pages
 git merge master
+git push origin gh-pages
 
 # Remove the master branch.
-git push origin :master
 git branch -d master
+
+# Deleting master branch
+#   must be done on origin site.
+#git push origin :master
