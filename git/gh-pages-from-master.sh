@@ -16,11 +16,13 @@ fi
 # Navigate to the repository root directory.
 cd $1
 
-# Checkout the gh-pages branch
-#   and merge master into it
+# Checkout the gh-pages branch,
+#   merge master into it,
+#   set the upstream branch,
 #   and push it to the origin.
 git checkout -B gh-pages
 git merge master
+git branch --set-upstream-to=origin/gh-pages gh-pages
 git push origin gh-pages
 
 # Remove the master branch.
