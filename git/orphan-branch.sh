@@ -22,3 +22,6 @@ git checkout --orphan $2
 
 # Force the branch to be empty.
 git rm rf .
+
+# Set the upstream branch.
+git branch --set-upstream-to=origin/$2 $2
