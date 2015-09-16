@@ -58,6 +58,7 @@ Duel.htm
 EmojiText.htm
 Engine.htm
 eog-Plugin-MenuEnhancer
+ESP-Test.htm
 ExperienceCalculator.htm
 FakeLogin.php
 Fireworks-2D.htm
