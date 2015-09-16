@@ -122,6 +122,7 @@ Terminal-Mockup.htm
 TerminalQuest.htm
 TextEditor.htm
 TextInfo.htm
+Time.htm
 TimeColors.htm
 Timeline.js
 Timer.htm
