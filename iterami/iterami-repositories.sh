@@ -33,6 +33,7 @@ Blog.php
 Calculator.htm
 Chrome-DarkTheme
 Chrome-ExtensionTemplates
+Chrome-GitHubCodeWrap
 Chrome-YouTubeSimplifier
 Click.htm
 Clock.htm
