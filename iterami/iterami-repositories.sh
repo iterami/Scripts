@@ -68,6 +68,7 @@ FractalRunner-2D3D.htm
 Functions.php
 gedit-Plugin-MenuEnhancer
 GitHub-API.htm
+GitHub-Issues
 GitHub-Searches.htm
 GNOME-PluginTemplates
 Guess.htm
@@ -107,6 +108,7 @@ RS-CombatLevel.htm
 RS-LevelCompare.htm
 RTS-2D.htm
 RTS-Boxing.htm
+Saria.htm
 Shooter-2D.htm
 Slots.htm
 Snakish.htm
