@@ -15,7 +15,9 @@ fi
 
 # Update this repository to fetch
 #   latest list of iterami repositories.
+echo 'pulling https://github.com/iterami/AutomationScripts'
 git pull
+echo
 
 # Execute iterami-repositories.sh, which has
 #   the updated list of iterami repositories.
