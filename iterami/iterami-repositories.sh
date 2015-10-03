@@ -23,7 +23,6 @@ repositories='
 9YG0E6r.htm
 Alarm.htm
 Aquarium-2D.htm
-ArcaneSanctuary.htm
 Archive
 ArtEditor.htm
 AutomationScripts
@@ -46,6 +45,7 @@ ConfigFiles
 ContactForm.htm
 ContactForm.php
 Countdown.htm
+D2LoD-ArcaneSanctuary.htm
 D2LoD-Builds
 D2LoD-RuneCalculator.htm
 DrinkingGames
