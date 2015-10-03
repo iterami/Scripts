@@ -31,7 +31,6 @@ BaseConverter.htm
 Blog.php
 Calculator.htm
 Chrome-DarkTheme
-Chrome-ExtensionTemplates
 Chrome-GitHubCodeWrap
 Chrome-YouTubeSimplifier
 Click.htm
@@ -55,7 +54,6 @@ Drupal-callipepla
 Drupal-delete_ghost_fields
 Drupal-integer_to_decimal
 Drupal-move_field_description
-Drupal-Templates
 Drupal-workflow_transitions_roles_fix
 Duel.htm
 EmojiText.htm
@@ -71,7 +69,6 @@ gedit-Plugin-MenuEnhancer
 GitHub-API.htm
 GitHub-Issues
 GitHub-Searches.htm
-GNOME-PluginTemplates
 Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
