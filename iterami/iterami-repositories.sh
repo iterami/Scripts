@@ -72,6 +72,7 @@ GitHub-Searches.htm
 Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
+HS-TheoryCraft.htm
 Info.php
 InterestCalculator.htm
 Inventory.php
