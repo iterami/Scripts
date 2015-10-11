@@ -25,7 +25,6 @@ Alarm.htm
 Aquarium-2D.htm
 Archive
 ArtEditor.htm
-AutomationScripts
 Avoidance-2D.htm
 BaseConverter.htm
 Blog.php
@@ -107,6 +106,7 @@ RS-LevelCompare.htm
 RTS-2D.htm
 RTS-Boxing.htm
 Saria.htm
+Scripts
 Shooter-2D.htm
 Slots.htm
 Snakish.htm
