@@ -95,7 +95,6 @@ Platform-2D.htm
 Platform-2D.sh
 Plus.htm
 Poem.htm
-Pseudocode
 QjnyYap.htm
 Rain-2D.htm
 ReactionTest.htm
