@@ -141,7 +141,7 @@ WebScraper.py
 WebServer.py
 Wiki.php
 WindowInfo.htm
-WoW-Macros
+WoW-Guide-F2P
 Yportne
 '
 
