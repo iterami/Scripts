@@ -44,9 +44,9 @@ ContactForm.htm
 ContactForm.php
 Countdown.htm
 D2LoD-ArcaneSanctuary.htm
-D2LoD-Builds
+D2LoD-Builds.htm
 D2LoD-RuneCalculator.htm
-DrinkingGames
+DrinkingGames.htm
 Dropdown.htm
 Drupal-alter_field_maxlength
 Drupal-callipepla
