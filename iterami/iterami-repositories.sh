@@ -28,6 +28,7 @@ ArtEditor.htm
 Avoidance-2D.htm
 BaseConverter.htm
 Blog.php
+BrowserQuest
 Calculator.htm
 Chrome-DarkTheme
 Chrome-GitHubCodeWrap
@@ -72,6 +73,7 @@ Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
 HS-TheoryCraft.htm
+Index.htm
 Info.php
 InterestCalculator.htm
 Inventory.php
