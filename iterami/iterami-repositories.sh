@@ -145,6 +145,7 @@ Wiki.php
 WindowInfo.htm
 WoW-Guide-F2P.htm
 Yportne
+Zuzanka.htm
 '
 
 # Pull updates for cloned iterami repositories
