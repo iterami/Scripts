@@ -11,7 +11,7 @@
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments.'
+    echo 'Missing arguments: path hash timestamp'
     exit 2
 fi
 

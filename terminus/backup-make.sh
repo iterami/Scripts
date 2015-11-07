@@ -8,7 +8,7 @@
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]
 then
-    echo 'Missing argument.'
+    echo 'Missing argument: site-name'
     exit 2
 fi
 

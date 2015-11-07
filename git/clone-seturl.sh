@@ -13,7 +13,7 @@
 # Check if at least 4 arguments were passed.
 if [ $# -lt 4 ]
 then
-    echo 'Missing arguments.'
+    echo 'Missing arguments: path owner-username repository your-username'
     exit 2
 fi
 

@@ -10,7 +10,7 @@
 # Check if at least 2 arguments were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing arguments.'
+    echo 'Missing arguments: path orphan-branch'
     exit 2
 fi
 
