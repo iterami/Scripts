@@ -32,6 +32,7 @@ BrowserQuest
 Calculator.htm
 Chrome-DarkTheme
 Chrome-GitHubCodeWrap
+Chrome-iterami
 Chrome-YouTubeSimplifier
 Click.htm
 Clock.htm
