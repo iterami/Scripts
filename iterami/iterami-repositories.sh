@@ -33,6 +33,7 @@ Calculator.htm
 Chrome-DarkTheme
 Chrome-GitHubCodeWrap
 Chrome-iterami
+Chrome-RedditSimplifier
 Chrome-YouTubeSimplifier
 Click.htm
 Clock.htm
