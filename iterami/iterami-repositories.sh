@@ -34,6 +34,7 @@ Chrome-DarkTheme
 Chrome-GitHubCodeWrap
 Chrome-iterami
 Chrome-RedditSimplifier
+Chrome-WikipediaSimplifier
 Chrome-YouTubeSimplifier
 Click.htm
 Clock.htm
