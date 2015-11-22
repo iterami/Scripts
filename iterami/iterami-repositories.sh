@@ -30,6 +30,7 @@ BaseConverter.htm
 Blog.php
 BrowserQuest
 Calculator.htm
+Chrome-CookieClickerSimplifier
 Chrome-DarkTheme
 Chrome-GitHubCodeWrap
 Chrome-iterami
