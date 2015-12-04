@@ -98,7 +98,7 @@ PasswordGenerator.htm
 PixelEditor.htm
 Platform-2D.htm
 Platform-2D.sh
-Plus.htm
+PlusPlus.htm
 Poem.htm
 QjnyYap.htm
 Rain-2D.htm
