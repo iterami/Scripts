@@ -27,6 +27,7 @@ Archive
 ArtEditor.htm
 Avoidance-2D.htm
 BaseConverter.htm
+BinaryDataEndecoder.htm
 Blog.php
 BrowserQuest
 Calculator.htm
