@@ -94,6 +94,7 @@ MC-ResourcePacks
 Music-Local.htm
 Music-Server.htm
 OS.asm
+pages.github.io
 Particleball-2D.htm
 ParticleRun-2D.htm
 PasswordGenerator.htm
