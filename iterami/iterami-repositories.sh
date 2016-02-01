@@ -29,7 +29,6 @@ Avoidance-2D.htm
 BaseConverter.htm
 BinaryDataEndecoder.htm
 Blog.php
-BrowserQuest
 Calculator.htm
 Chrome-CookieClickerSimplifier
 Chrome-DarkTheme
@@ -146,7 +145,6 @@ Tubes-2D3D.htm
 U1.htm
 UnitConverter.htm
 UniverseConstructor.htm
-uot
 Warped.htm
 WebScraper.py
 WebServer.py
