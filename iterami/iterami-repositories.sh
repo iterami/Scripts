@@ -48,6 +48,7 @@ ConfigFiles
 ContactForm.htm
 ContactForm.php
 Countdown.htm
+D2LoD-Adventures
 D2LoD-ArcaneSanctuary.htm
 D2LoD-Builds.htm
 D2LoD-RuneCalculator.htm
@@ -78,7 +79,6 @@ Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
 HS-TheoryCraft.htm
-Index.htm
 Info.php
 InterestCalculator.htm
 Inventory.php
