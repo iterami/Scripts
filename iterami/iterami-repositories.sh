@@ -131,8 +131,7 @@ Starfield-2D3D.htm
 Sudoku.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
-Terminal-Mockup.htm
-TerminalQuest.htm
+Terminal.htm
 TextEditor.htm
 TextInfo.htm
 Time.htm
