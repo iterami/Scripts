@@ -44,6 +44,7 @@ ColorSelector.htm
 ColorSquares.htm
 ColorSteps.htm
 ColorWaves.htm
+common
 ConfigFiles
 ContactForm.htm
 ContactForm.php
