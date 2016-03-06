@@ -35,6 +35,7 @@ Chrome-DarkTheme
 Chrome-GitHubCodeWrap
 Chrome-iterami
 Chrome-RedditSimplifier
+Chrome-TwitchSimplifier
 Chrome-WikipediaSimplifier
 Chrome-YouTubeSimplifier
 Click.htm
