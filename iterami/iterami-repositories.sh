@@ -106,6 +106,7 @@ Platform-2D.sh
 PlusPlus.htm
 Poem.htm
 QjnyYap.htm
+Race-2D.htm
 Rain-2D.htm
 ReactionTest.htm
 RNG.htm
