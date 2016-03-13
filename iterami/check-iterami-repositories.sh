@@ -2,9 +2,9 @@
 
 # Required arguments:
 #   $1: Relative path to the directory in which the
-#         iterami repositories are/will_be stored.
+#         iterami repositories are stored.
 #
-# Example: sh fetch-iterami-repositories.sh iterami_repositories/
+# Example: sh check-iterami-repositories.sh iterami_repositories/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]
@@ -19,6 +19,6 @@ echo 'pulling https://github.com/iterami/Scripts'
 git pull
 echo
 
-# Execute iterami-repositories-fetch.sh, which has
+# Execute iterami-repositories-check.sh, which has
 #   the updated list of iterami repositories.
-sh iterami-repositories-fetch.sh $1
+sh iterami-repositories-check.sh $1
