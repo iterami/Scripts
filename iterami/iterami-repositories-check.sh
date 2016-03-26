@@ -112,9 +112,7 @@ RNG.htm
 RockPaperScissors.htm
 RPG-Above.htm
 RPG-Side.htm
-RS-CombatLevel.htm
-RS-Guide-F2P.htm
-RS-LevelCompare.htm
+RS-Guide.htm
 RTS-2D.htm
 RTS-Boxing.htm
 Saria.htm
