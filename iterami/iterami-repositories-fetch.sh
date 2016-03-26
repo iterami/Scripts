@@ -50,10 +50,8 @@ ConfigFiles
 ContactForm.htm
 ContactForm.php
 Countdown.htm
-D2LoD-Adventures
 D2LoD-ArcaneSanctuary.htm
-D2LoD-Builds.htm
-D2LoD-RuneCalculator.htm
+D2LoD-Guide.htm
 DrinkingGames.htm
 Dropdown.htm
 Drupal-alter_field_maxlength
