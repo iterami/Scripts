@@ -5,7 +5,7 @@
 #         iterami repositories are/will_be stored.
 #   $2: Commit message.
 #
-# Example: sh iterami-repositories-commit.sh iterami_repositories/ 'This is a commit message!'
+# Example: sh iterami-repositories-commit.sh iterami_repositories/ "This is a commit message!"
 
 # Check if at least 2 arguments were passed.
 if [ $# -lt 2 ]
@@ -166,7 +166,7 @@ do
         cd $repository
         git add .
         git add . -u
-        git commit -m "$2"
+        git commit -m $2
 
     else
         echo 'https://github.com/iterami/'$repository' NOT YET CLONED'
