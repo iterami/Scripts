@@ -23,7 +23,7 @@ git add .
 git add . -u
 
 # Commit the changes.
-git commit -m $2
+git commit -m "$2"
 
 # Get the hash of the committed commit.
 hash=`git log -1 --format=\'%H\'`

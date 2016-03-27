@@ -22,4 +22,4 @@ echo
 
 # Execute iterami-repositories-commit.sh, which has
 #   the updated list of iterami repositories.
-sh iterami-repositories-commit.sh $1 $2
+sh iterami-repositories-commit.sh $1 "$2"

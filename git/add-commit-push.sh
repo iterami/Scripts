@@ -22,7 +22,7 @@ git add .
 git add . -u
 
 # Commit the changes.
-git commit -m $2
+git commit -m "$2"
 
 # Push the changes.
 git push
