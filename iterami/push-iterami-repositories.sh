@@ -3,14 +3,13 @@
 # Required arguments:
 #   $1: Relative path to the directory in which the
 #         iterami repositories are/will_be stored.
-#   $2: Commit message.
 #
-# Example: sh commit-iterami-repositories.sh iterami_repositories/ 'This is a commit message!'
+# Example: sh push-iterami-repositories.sh iterami_repositories/
 
-# Check if at least 2 arguments were passed.
-if [ $# -lt 2 ]
+# Check if at least 1 argument was passed.
+if [ $# -lt 1 ]
 then
-    echo 'Missing argument: path commit-message'
+    echo 'Missing argument: path'
     exit 2
 fi
 
@@ -20,6 +19,6 @@ echo 'pulling https://github.com/iterami/Scripts'
 git pull
 echo
 
-# Execute iterami-repositories-commit.sh, which has
+# Execute iterami-repositories-push.sh, which has
 #   the updated list of iterami repositories.
-sh iterami-repositories-commit.sh $1 $2
+sh iterami-repositories-push.sh $1
