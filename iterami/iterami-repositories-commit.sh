@@ -143,7 +143,6 @@ Timer.htm
 TinyMCE-Editor.htm
 Trains-2D.htm
 Trains-3D.htm
-Translations
 Tubes-2D3D.htm
 U1.htm
 UnitConverter.htm
