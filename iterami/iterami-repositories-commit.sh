@@ -74,7 +74,6 @@ FractalRunner-2D3D.htm
 Functions.php
 gedit-Plugin-MenuEnhancer
 GitHub-API.htm
-GitHub-Issues
 GitHub-Searches.htm
 Guess.htm
 Hallway-2D3D.htm
