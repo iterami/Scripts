@@ -61,6 +61,7 @@ Drupal-delete_ghost_fields
 Drupal-integer_to_decimal
 Drupal-move_field_description
 Drupal-workflow_transitions_roles_fix
+DS-Guide.htm
 Duel.htm
 EmojiText.htm
 Engine.htm
