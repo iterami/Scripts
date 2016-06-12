@@ -154,7 +154,6 @@ WebServer.py
 Wiki.php
 WindowInfo.htm
 WoW-Guide-F2P.htm
-Yportne
 Zuzanka.htm
 '
 
