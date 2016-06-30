@@ -129,7 +129,6 @@ SpeedButton.htm
 SpeedShape.htm
 SpeedText.htm
 SpeedType.htm
-Standards
 Starfield-2D3D.htm
 Sudoku.htm
 TemplateEngine.php
