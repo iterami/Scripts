@@ -22,6 +22,7 @@ cd $1
 repositories='
 9YG0E6r.htm
 Alarm.htm
+AoM-Guide.htm
 Aquarium-2D.htm
 Archive
 ArtEditor.htm
