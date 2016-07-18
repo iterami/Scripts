@@ -80,7 +80,7 @@ GitHub-Searches.htm
 Guess.htm
 Hallway-2D3D.htm
 Hrad.htm
-HS-TheoryCraft.htm
+HS-Guide.htm
 Info.php
 InterestCalculator.htm
 Inventory.php
@@ -153,7 +153,7 @@ WebScraper.py
 WebServer.py
 Wiki.php
 WindowInfo.htm
-WoW-Guide-F2P.htm
+WoW-Guide.htm
 Zuzanka.htm
 '
 
