@@ -87,7 +87,6 @@ Inventory.php
 IP.php
 iterami.github.io
 Jetpack-2D.htm
-KeyInfo.htm
 LayeredSnake-2D3D.htm
 LocalStorage.htm
 Market

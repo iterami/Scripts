@@ -1,4 +1,4 @@
-#!/bin/sh
+k#!/bin/sh
 
 # Required arguments:
 #   $1: Relative path to the directory in which the
@@ -87,7 +87,6 @@ Inventory.php
 IP.php
 iterami.github.io
 Jetpack-2D.htm
-KeyInfo.htm
 LayeredSnake-2D3D.htm
 LocalStorage.htm
 Market
