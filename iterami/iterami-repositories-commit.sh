@@ -60,6 +60,7 @@ Dropdown.htm
 Drupal-alter_field_maxlength
 Drupal-callipepla
 Drupal-delete_ghost_fields
+Drupal-disable_window_alert
 Drupal-integer_to_decimal
 Drupal-move_field_description
 Drupal-workflow_transitions_roles_fix
