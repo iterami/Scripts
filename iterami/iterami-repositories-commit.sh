@@ -25,7 +25,6 @@ repositories='
 Alarm.htm
 AoM-Guide.htm
 Aquarium-2D.htm
-Archive
 ArtEditor.htm
 Avoidance-2D.htm
 BaseConverter.htm
