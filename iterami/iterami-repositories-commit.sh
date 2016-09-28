@@ -80,7 +80,7 @@ GitHub-API.htm
 GitHub-Searches.htm
 Guess.htm
 Hallway-2D3D.htm
-Hexagon-2D.htm
+Hexagons-2D.htm
 Hrad.htm
 HS-Guide.htm
 Info.php
