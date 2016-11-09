@@ -22,8 +22,7 @@ cd $1
 git checkout --orphan temporary_branch
 
 # Add all files.
-git add .
-git add . -u
+git add -A
 
 # Commit the files.
 git commit -m "$3"
