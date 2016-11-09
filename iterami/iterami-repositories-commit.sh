@@ -167,8 +167,7 @@ do
     then
         echo 'pulling https://github.com/iterami/'$repository
         cd $repository
-        git add .
-        git add . -u
+        git add -A
         git commit -m "$2"
 
     else
