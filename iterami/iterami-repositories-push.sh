@@ -53,6 +53,7 @@ ContactForm.php
 Countdown.htm
 D2LoD-ArcaneSanctuary.htm
 D2LoD-Guide.htm
+Documentation.htm
 DrinkingGames.htm
 Dropdown.htm
 Drupal-alter_field_maxlength
