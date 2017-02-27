@@ -123,7 +123,6 @@ RPG-Side.htm
 RS-Guide.htm
 RTS-2D.htm
 RTS-Boxing.htm
-Saria.htm
 Scripts
 Shooter-2D.htm
 Slots.htm
@@ -160,7 +159,6 @@ WebServer.py
 Wiki.php
 WindowInfo.htm
 WoW-Guide.htm
-Zuzanka.htm
 '
 
 # `git status` iterami repositories.
