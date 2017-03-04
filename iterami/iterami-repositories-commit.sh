@@ -31,6 +31,7 @@ BaseConverter.htm
 BinaryDataEndecoder.htm
 Blog.php
 Calculator.htm
+CH-Guide.htm
 ChatBot.py
 Chrome-CookieClickerSimplifier
 Chrome-DarkTheme
