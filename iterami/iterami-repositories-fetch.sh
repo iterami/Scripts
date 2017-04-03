@@ -108,6 +108,7 @@ Percentages.htm
 PixelEditor.htm
 Platform-2D.htm
 Platform-2D.sh
+Platform-3D.htm
 PlusPlus.htm
 Poem.htm
 ProcessEditor
