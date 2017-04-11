@@ -56,6 +56,7 @@ D2LoD-ArcaneSanctuary.htm
 D2LoD-Guide.htm
 DesertStreetMarket.htm
 Documentation.htm
+DotEyeIllusion.htm
 DrinkingGames.htm
 Dropdown.htm
 Drupal-alter_field_maxlength
