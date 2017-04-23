@@ -29,6 +29,7 @@ ArtEditor.htm
 Avoidance-2D.htm
 BaseConverter.htm
 BinaryDataEndecoder.htm
+Birthday.htm
 Blog.php
 Calculator.htm
 CH-Guide.htm
