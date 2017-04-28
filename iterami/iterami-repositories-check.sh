@@ -127,6 +127,7 @@ RPG-Side.htm
 RS-Guide.htm
 RTS-2D.htm
 RTS-Boxing.htm
+SC-AI.cpp
 SC-Guide.htm
 Scripts
 Shooter-2D.htm
