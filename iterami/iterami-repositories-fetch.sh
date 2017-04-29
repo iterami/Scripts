@@ -142,6 +142,7 @@ SpeedType.htm
 Starfield-2D3D.htm
 Starfield-3D.htm
 Sudoku.htm
+SurrealIntermission.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
 Terminal.htm
