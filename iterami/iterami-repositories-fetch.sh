@@ -129,6 +129,7 @@ RTS-2D.htm
 RTS-Boxing.htm
 SC-AI.cpp
 SC-Guide.htm
+SC-Maps
 Scripts
 Shooter-2D.htm
 Slots.htm
