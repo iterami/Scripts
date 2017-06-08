@@ -178,7 +178,7 @@ for repository in $repositories
 do
     if [ -d $repository ]
     then
-        echo 'addding/committing https://github.com/iterami/'$repository
+        echo 'adding/committing https://github.com/iterami/'$repository
         cd $repository
         git add -A
         git commit -m "$2"
