@@ -177,7 +177,7 @@ for repository in $repositories
 do
     if [ -d $repository ]
     then
-        echo 'pulling https://github.com/iterami/'$repository
+        echo 'pushing https://github.com/iterami/'$repository
         cd $repository
         git push origin HEAD
 
