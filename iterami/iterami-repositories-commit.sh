@@ -25,7 +25,6 @@ repositories='
 Alarm.htm
 AoM-Guide.htm
 Aquarium-2D.htm
-ArtEditor.htm
 Avoidance-2D.htm
 BaseConverter.htm
 BinaryDataEndecoder.htm
@@ -99,8 +98,6 @@ LocalStorage.htm
 Market
 Match.htm
 MC-ResourcePacks
-Music-Local.htm
-Music-Server.htm
 OS.asm
 pages.github.io
 Particleball-2D.htm
@@ -163,7 +160,6 @@ Trigonometry.htm
 Tubes-2D3D.htm
 U1.htm
 UnitConverter.htm
-UniverseConstructor.htm
 Vidce.htm
 Warped.htm
 WebScraper.py
