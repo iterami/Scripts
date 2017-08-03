@@ -148,6 +148,7 @@ Terminal.htm
 TextEditor.htm
 TextInfo.htm
 TF2-Guide.htm
+ThemePark-3D.htm
 Time.htm
 TimeColors.htm
 Timeline.js
