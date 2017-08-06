@@ -5,8 +5,8 @@
 # Synchronize installed packages.
 sudo apt-get update -y
 
-# Install gnome-session-fallback.
-sudo apt-get install gnome-session-fallback
+# Install gnome-session-flashback.
+sudo apt-get install gnome-session-flashback
 
 # Install gnome-tweak-tool.
 sudo apt-get install gnome-tweak-tool
