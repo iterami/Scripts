@@ -41,7 +41,6 @@ ColorSteps.htm
 ColorWaves.htm
 common
 ConfigFiles
-ContactForm.htm
 ContactForm.php
 Countdown.htm
 D2LoD-ArcaneSanctuary.htm
@@ -126,7 +125,6 @@ Sudoku.htm
 SurrealIntermission.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
-Terminal.htm
 TextEditor.htm
 TextInfo.htm
 ThemePark-3D.htm
