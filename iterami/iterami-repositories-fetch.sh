@@ -125,7 +125,7 @@ Sudoku.htm
 SurrealIntermission.htm
 TemplateEngine.php
 TemplateEngine-Lite.php
-TextEditor.htm
+TextEditor.c
 TextInfo.htm
 ThemePark-3D.htm
 Time.htm
