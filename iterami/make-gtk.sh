@@ -8,6 +8,7 @@ Engine.gtk
 EVETools.gtk
 FileBrowser.gtk
 TextEditor.gtk
+Trains.gtk
 '
 
 # make
