@@ -14,7 +14,7 @@ Trains.gtk
 # make
 for repository in $repositories
 do
-    cd '~/.iterami/repositories/'$repository
+    cd ~/.iterami/repositories/$repository
     make
 
     echo
