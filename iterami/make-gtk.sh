@@ -1,4 +1,4 @@
-k#!/bin/sh
+#!/bin/sh
 
 # No arguments.
 
