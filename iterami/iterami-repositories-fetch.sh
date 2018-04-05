@@ -1,4 +1,4 @@
-k#!/bin/sh
+#!/bin/sh
 
 # Required arguments:
 #   $1: Relative path to the directory in which the
