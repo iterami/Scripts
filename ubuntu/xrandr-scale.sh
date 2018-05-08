@@ -16,4 +16,4 @@ then
 fi
 
 # Scale.
-xrandr --output eDP1 --scale $1x$2 --panning $3x$4+0+0
+xrandr --output eDP-1 --scale $1x$2 --panning $3x$4+0+0
