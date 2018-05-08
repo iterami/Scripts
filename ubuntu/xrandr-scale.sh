@@ -13,7 +13,7 @@
 # Check if at least 6 arguments were passed.
 if [ $# -lt 6 ]
 then
-    echo 'Missing arguments: mode_x mode_y panning_x panning_y scale_x scale_y
+    echo 'Missing arguments: mode_x mode_y panning_x panning_y scale_x scale_y'
     exit 2
 fi
 
