@@ -4,11 +4,10 @@
 
 # An array of all iterami GTK repositories.
 repositories='
-Engine.gtk
 EVETools.gtk
 FileBrowser.gtk
+MultiverseEditor.gtk
 TextEditor.gtk
-Trains.gtk
 '
 
 # make
