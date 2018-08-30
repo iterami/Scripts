@@ -19,6 +19,27 @@ echo 'pulling https://github.com/iterami/Scripts'
 git pull
 echo
 
-# Execute iterami-repositories-check.sh, which has
-#   the updated list of iterami repositories.
-sh iterami-repositories-check.sh $1
+# Get an array of all iterami repositories.
+. ./iterami-repositories-list.sh
+
+# Navigate to the target directory name
+#   and create it if it doesn't exist.
+mkdir -p $1
+cd $1
+
+# `git status` iterami repositories.
+for repository in $repositories
+do
+    if [ -d $repository ]
+    then
+        echo 'checking https://github.com/iterami/'$repository
+        cd $repository
+        git status
+        cd ..
+
+    else
+        echo 'https://github.com/iterami/'$repository' NOT YET CLONED'
+    fi
+
+    echo
+done
