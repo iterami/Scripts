@@ -7,6 +7,7 @@ repositories='
 EVETools.gtk
 FileBrowser.gtk
 MultiverseEditor.gtk
+random_number_test.gtk
 TextEditor.gtk
 '
 
