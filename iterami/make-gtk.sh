@@ -8,7 +8,9 @@ EVETools.gtk
 FileBrowser.gtk
 MultiverseEditor.gtk
 random_number_test.gtk
+Terminal.gtk
 TextEditor.gtk
+WebBrowser.gtk
 '
 
 # make
