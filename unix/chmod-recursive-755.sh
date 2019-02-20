@@ -4,7 +4,7 @@
 #   $1: Relative path to the directory
 #         that will be modified.
 #
-# Example: sh chmod-recursive-775.sh target/directory/
+# Example usage: sh chmod-recursive-775.sh target/directory/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

@@ -3,7 +3,7 @@
 # Required arguments:
 #   $1: Relative path to the evelauncher directory.
 #
-# Example: sh linux-symlink.sh evelauncher/
+# Example usage: sh linux-symlink.sh evelauncher/
 
 # Install libssl1.0.0.
 sudo apt-get install libssl1.0.0

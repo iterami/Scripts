@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh remove-overlay-scrollbars.sh
 
 # Ubuntu 12.04
 gsettings set org.gnome.desktop.interface ubuntu-overlay-scrollbars false

@@ -6,7 +6,7 @@
 #   $2: Commit message.
 #   $3: The date you wish to use, in timestamp format.
 #
-# Example: sh create-past-commit.sh repositories/repository "This is a commit message!" 1408708800
+# Example usage: sh create-past-commit.sh repositories/repository "This is a commit message!" 1408708800
 
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]

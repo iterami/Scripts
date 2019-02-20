@@ -3,7 +3,7 @@
 # Required arguments:
 #   $1: Site name.
 #
-# Example: sh backup-make.sh SiteName
+# Example usage: sh backup-make.sh SiteName
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

@@ -6,7 +6,7 @@
 #   $2: The hash of the commit you wish to modify.
 #   $3: The date you wish to use, in timestamp format.
 #
-# Example: sh commit-date-change.sh repositories/repository 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe 1408708800
+# Example usage: sh commit-date-change.sh repositories/repository 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe 1408708800
 
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]

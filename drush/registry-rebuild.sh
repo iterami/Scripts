@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh registry-rebuild.sh
 
 # Download registry_rebuild
 #   if it hasn't been downloaded yet.

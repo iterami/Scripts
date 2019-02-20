@@ -5,7 +5,7 @@
 #         repository you wish to modify.
 #   $2: Commit message.
 #
-# Example: sh add-commit-push.sh repository/ "This is a commit message!"
+# Example usage: sh add-commit-push.sh repository/ "This is a commit message!"
 
 # Check if at least 2 arguments were passed.
 if [ $# -lt 2 ]

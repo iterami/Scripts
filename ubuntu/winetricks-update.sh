@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh winetricks-update.sh
 
 # Remove existing winetricks.
 sudo apt-get remove winetricks

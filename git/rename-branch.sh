@@ -6,7 +6,7 @@
 #   $2: Name of the branch you wish to rename.
 #   $3: New name of the renamed branch.
 #
-# Example: sh rename-branch.sh old-branch new-branch
+# Example usage: sh rename-branch.sh old-branch new-branch
 
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]

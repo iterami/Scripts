@@ -9,7 +9,7 @@
 #   $6: Scale x.
 #   $7: Scale y.
 #
-# Example: sh xrandr-scale.sh 1600 900 1920 1080 1.2 1.2
+# Example usage: sh xrandr-scale.sh 1600 900 1920 1080 1.2 1.2
 
 # Check if at least 6 arguments were passed.
 if [ $# -lt 7 ]

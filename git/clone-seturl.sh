@@ -8,7 +8,7 @@
 #   #3: The name of the cloned GitHub repository.
 #   #4: Your GitHub username.
 #
-# Example: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
+# Example usage: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
 
 # Check if at least 4 arguments were passed.
 if [ $# -lt 4 ]

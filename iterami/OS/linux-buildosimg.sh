@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh linux-buildosimg.sh
 
 # create os.bin
 nasm -f bin kernel/kernel.asm -o os.bin

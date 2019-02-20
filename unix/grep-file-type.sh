@@ -6,7 +6,7 @@
 #   $2: File extension to grep.
 #   $3: String to grep.
 #
-# Example: sh grep-file-type.sh target/directory "*.sh" "string"
+# Example usage: sh grep-file-type.sh target/directory "*.sh" "string"
 
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]

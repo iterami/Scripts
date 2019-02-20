@@ -4,7 +4,7 @@
 #   $1: Relative path to the directory from which
 #         to return a random file or directory.
 #
-# Example: sh random-fileordirectory.sh target/directory/
+# Example usage: sh random-fileordirectory.sh target/directory/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

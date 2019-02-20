@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh linux-install.sh
 
 # Download launcher.
 wget https://binaries.eveonline.com/evelauncher-1104891.tar.gz

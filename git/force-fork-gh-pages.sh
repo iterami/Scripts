@@ -4,7 +4,7 @@
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #
-# Example: sh force-fork-gh-pages.sh repositories/repository
+# Example usage: sh force-fork-gh-pages.sh repositories/repository
 
 # Check if at least 1 argument is passed.
 if [ $# -lt 1 ]

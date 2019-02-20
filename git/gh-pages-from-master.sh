@@ -4,7 +4,7 @@
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #
-# Example: sh gh-pages-from-master.sh repositories/repository
+# Example usage: sh gh-pages-from-master.sh repositories/repository
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

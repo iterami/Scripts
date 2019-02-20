@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh distupgrade.sh
 
 # Create and configure Vagrant based on the Vagrantfile.
 vagrant up

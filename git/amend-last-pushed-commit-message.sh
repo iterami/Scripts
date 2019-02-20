@@ -4,7 +4,7 @@
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #
-# Example: sh amend-last-pushed-commit-message.sh repository/
+# Example usage: sh amend-last-pushed-commit-message.sh repository/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

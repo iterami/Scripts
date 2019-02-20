@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh make-gtk.sh
 
 # An array of all iterami GTK repositories.
 repositories='

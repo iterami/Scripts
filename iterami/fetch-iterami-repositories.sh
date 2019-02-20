@@ -4,7 +4,7 @@
 #   $1: Relative path to the directory in which the
 #         iterami repositories are/will_be stored.
 #
-# Example: sh fetch-iterami-repositories.sh iterami_repositories/
+# Example usage: sh fetch-iterami-repositories.sh iterami_repositories/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

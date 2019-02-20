@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh clear-replacehistory.sh
 
 # Clear "Replace with:" history.
 gsettings set org.gnome.gedit.state.history-entry replace-with-entry "['']"

@@ -3,7 +3,7 @@
 # Required arguments:
 #   $1: Relative path to the target directory.
 #
-# Example: sh count-directory-contents.sh target/directory/
+# Example usage: sh count-directory-contents.sh target/directory/
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]

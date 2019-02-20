@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # No arguments.
+# Example usage: sh gnome-desktop.sh
 
 # Synchronize installed packages.
 sudo apt-get update -y
