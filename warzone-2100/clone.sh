@@ -6,6 +6,13 @@
 #
 # Example usage: sh clone.sh warzone2100/
 
+# Check if at least 1 argument was passed.
+if [ $# -lt 1 ]
+then
+    echo 'Missing argument: path'
+    exit 2
+fi
+
 # Clone Warzone 2100 from GitHub.
 git clone --depth 1 https://github.com/Warzone2100/warzone2100
 
