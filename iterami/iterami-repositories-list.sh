@@ -72,6 +72,7 @@ Platform-2D.sh
 PlusPlus.htm
 Poem.htm
 ProcessEditor
+Profiler.htm
 QjnyYap.htm
 Race-2D.htm
 Rain-2D.htm
