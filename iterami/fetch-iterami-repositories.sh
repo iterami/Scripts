@@ -39,7 +39,7 @@ do
         cd ..
 
     else
-        git clone https://github.com/iterami/$repository.git
+        git clone --depth 1 https://github.com/iterami/$repository.git
         echo 'cloned https://github.com/iterami/'$repository
     fi
 
