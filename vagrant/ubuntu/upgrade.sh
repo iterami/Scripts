@@ -9,8 +9,5 @@ vagrant up
 # SSH into the currently running Vagrant machine.
 vagrant ssh
 
-# Synchronize installed packages.
-sudo apt-get update -y
-
 # Update installed packages to latest available version.
-sudo apt-get upgrade -y
+sudo aptdcon -c --full-upgrade

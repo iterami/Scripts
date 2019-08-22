@@ -17,4 +17,4 @@ fi
 sh clone.sh $1
 
 # Install dependencies.
-sudo apt-get install autoconf automake build-essential qtscript5-dev libpng12-dev libtheora-dev libopenal-dev libvorbis-dev libglew-dev libphysfs-dev libfribidi-dev libfreetype6-dev libharfbuzz-dev libfontconfig1-dev gdb docbook-xsl libxml2-utils xsltproc asciidoc wkhtmltopdf gettext
+sudo aptdcon -c -i autoconf automake build-essential qtscript5-dev libpng12-dev libtheora-dev libopenal-dev libvorbis-dev libglew-dev libphysfs-dev libfribidi-dev libfreetype6-dev libharfbuzz-dev libfontconfig1-dev gdb docbook-xsl libxml2-utils xsltproc asciidoc wkhtmltopdf gettext

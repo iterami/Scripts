@@ -4,4 +4,4 @@
 # Example usage: sh install-java.sh
 
 # Install OpenJRE.
-sudo apt-get install openjdk-8-jre
+sudo aptdcon -c -i openjdk-8-jre

@@ -4,16 +4,16 @@
 # Example usage: sh gnome-desktop.sh
 
 # Synchronize installed packages.
-sudo apt-get update -y
+sudo aptdcon -c
 
 # Install gnome-session-flashback.
-sudo apt-get install gnome-session-flashback
+sudo aptdcon -i gnome-session-flashback
 
 # Install gnome-tweak-tool.
-sudo apt-get install gnome-tweak-tool
+sudo aptdcon -i gnome-tweak-tool
 
 # Install dconf-editor.
-sudo apt-get install dconf-editor
+sudo aptdcon -i dconf-editor
 
 # Reboot. Make sure to select the
 #   appropriate gnome desktop setting

@@ -6,7 +6,7 @@
 # Example usage: sh linux-symlink.sh evelauncher/
 
 # Install libssl1.0.0.
-sudo apt-get install libssl1.0.0
+sudo aptdcon -c --i libssl1.0.0
 
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]
