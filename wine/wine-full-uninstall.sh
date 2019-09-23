@@ -11,3 +11,5 @@ rm -rf ~/.config/menus/applications-merged/wine*
 rm -rf ~/.local/share/applications/wine*
 rm -rf ~/.local/share/desktop-directories/wine*
 rm -rf ~/.wine
+
+# Manual cleanup of ~/.local/share/icons is recommended.
