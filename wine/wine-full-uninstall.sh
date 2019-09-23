@@ -7,9 +7,11 @@
 sudo apt-get remove wine*
 
 # Cleanup wine directories.
+rm -rf ~/.cache/wine*
 rm -rf ~/.config/menus/applications-merged/wine*
 rm -rf ~/.local/share/applications/wine*
 rm -rf ~/.local/share/desktop-directories/wine*
 rm -rf ~/.wine
 
-# Manual cleanup of ~/.local/share/icons is recommended.
+# Various directories may need manual cleanup:
+#   ~/.local/share/icons
