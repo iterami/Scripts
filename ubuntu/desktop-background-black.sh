@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # No arguments.
-# Example usage: sh set-background-black.sh
+# Example usage: sh desktop-background-black.sh
 
 # Set the background to solid black.
 gsettings set org.gnome.desktop.background color-shading-type "solid"
