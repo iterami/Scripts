@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # No arguments.
-# Example usage: sh wine-kill.sh
+# Example usage: sh kill.sh
 
 # Kill wineserver.
 wineserver -k

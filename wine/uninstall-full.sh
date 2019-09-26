@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # No arguments.
-# Example usage: sh wine-full-uninstall.sh
+# Example usage: sh uninstall-full.sh
 
 # Remove wine packages.
 sudo apt-get remove wine*
