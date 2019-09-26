@@ -5,15 +5,15 @@
 #
 # Example usage: sh linux-symlink.sh evelauncher/
 
-# Install libssl1.0.0.
-sudo aptdcon -c -i libssl1.0.0
-
 # Check if at least 1 argument was passed.
 if [ $# -lt 1 ]
 then
     echo 'Missing arguments: path'
     exit 2
 fi
+
+# Install libssl1.0.0.
+sudo aptdcon -c -i libssl1.0.0
 
 # Navigate to the launcher directory.
 cd $1
