@@ -26,6 +26,10 @@ cd dxvk/
 
 # TODO: build DLLs.
 
+# Install libraries.
+sudo apt-get install libvulkan1
+sudo apt-get install libvulkan1:i386
+
 # Install doitsujin/dxvk.
 export WINEPREFIX=$2
 ./setup_dxvk.sh install
