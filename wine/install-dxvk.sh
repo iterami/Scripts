@@ -24,6 +24,8 @@ cd $1
 git clone --depth 1 https://github.com/doitsujin/dxvk.git
 cd dxvk/
 
+# TODO: build DLLs.
+
 # Install doitsujin/dxvk.
 export WINEPREFIX=$2
 ./setup_dxvk.sh install
