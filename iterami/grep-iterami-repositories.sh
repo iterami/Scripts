@@ -5,7 +5,7 @@
 #         iterami repositories are stored.
 #   $2: String to grep.
 #
-# Example usage: sh grep-iterami-repositories.sh iterami_repositories/ "test"
+# Example usage: sh grep-iterami-repositories.sh iterami_repositories/ "string"
 
 # Check if at least 2 arguments were passed.
 if [ $# -lt 2 ]
@@ -14,7 +14,7 @@ then
     exit 2
 fi
 
-# Navigate to the target directory name.
+# Navigate to the target directory.
 cd $1
 
 # grep.

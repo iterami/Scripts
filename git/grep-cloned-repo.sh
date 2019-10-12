@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Required arguments:
-#   $1: Relative path to the root directory of the
-#         repository you wish to modify.
+#   $1: Relative path to the directory of the
+#         repository you wish to grep.
 #   $2: String to grep.
 #
 # Example usage: sh grep-cloned-repo.sh repositories/repository "string"
@@ -18,4 +18,4 @@ fi
 cd $1
 
 # grep.
-grep -l -r --exclude-dir=".git" $2 .
+grep -lr --exclude-dir=.git $2
