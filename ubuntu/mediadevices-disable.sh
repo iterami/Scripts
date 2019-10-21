@@ -7,5 +7,6 @@
 sudo modprobe -r uvcvideo
 
 # Disable microphone.
+amixer set Capture nocap
 amixer set Mic mute
 amixer set Mic 0%
