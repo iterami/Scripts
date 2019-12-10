@@ -6,7 +6,7 @@
 #   $2: Name of the branch you wish to use.
 #   $3: Commit message.
 #
-# Example usage: sh clear-commit-history.sh master "This is a commit message!"
+# Example usage: sh clear-commit-history.sh repository/ master "This is a commit message!"
 
 # Check if at least 3 arguments were passed.
 if [ $# -lt 3 ]

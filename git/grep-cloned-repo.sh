@@ -5,7 +5,7 @@
 #         repository you wish to grep.
 #   $2: String to grep.
 #
-# Example usage: sh grep-cloned-repo.sh repositories/repository "string"
+# Example usage: sh grep-cloned-repo.sh repository/ "string"
 
 # Check if at least 2 arguments were passed.
 if [ $# -lt 2 ]
