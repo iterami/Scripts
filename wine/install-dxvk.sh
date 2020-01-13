@@ -15,7 +15,7 @@ then
     exit 2
 fi
 
-# Navigate to the target directory name
+# Navigate to the target directory
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1
