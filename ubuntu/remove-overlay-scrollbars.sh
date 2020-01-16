@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh remove-overlay-scrollbars.sh
 
 # Ubuntu 12.04

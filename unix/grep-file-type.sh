@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the directory
 #         in which to grep.
 #   $2: File extension to grep.
@@ -8,10 +8,10 @@
 #
 # Example usage: sh grep-file-type.sh target/directory "*.sh" "string"
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path extension string'
+    echo 'Missing args: path extension string'
     exit 2
 fi
 

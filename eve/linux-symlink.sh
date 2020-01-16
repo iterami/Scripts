@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the evelauncher directory.
 #
 # Example usage: sh linux-symlink.sh evelauncher/
 
-# Check if at least 1 argument was passed.
+# Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
 then
-    echo 'Missing arguments: path'
+    echo 'Missing args: path'
     exit 2
 fi
 

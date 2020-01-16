@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# No arguments.
+# No args.
 # Example usage: reset-ipv4.bat
 
 netsh winsock reset catalog

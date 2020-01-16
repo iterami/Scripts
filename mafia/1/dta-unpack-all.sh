@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root jovan-s/DTAUnpacker directory.
 #   $2: Relative path to the root Mafia 1 install directory.
 #   $3: Relative path to the directory in which you wish to
@@ -8,10 +8,10 @@
 #
 # Example usage: sh dta-unpack-all.sh repositories/DTAUnpacker ~/.wine/drive_c/path/to/mafia backups/
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path_unpacker path_mafia path_backup'
+    echo 'Missing args: path_unpacker path_mafia path_backup'
     exit 2
 fi
 

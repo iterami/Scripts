@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh exit-halt.sh
 
 # Exit from a `vagrant ssh`.

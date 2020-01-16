@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: The upstream branch you wish to fetch and
@@ -8,10 +8,10 @@
 #
 # Example usage: sh rebase-fork.sh repository/ master
 
-# Check if at least 2 arguments were passed.
+# Check if at least 2 args were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing arguments: path upstream-branch
+    echo 'Missing args: path upstream-branch
     exit 2
 fi
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: Name of the branch you wish to use.
@@ -8,10 +8,10 @@
 #
 # Example usage: sh clear-commit-history.sh repository/ master "This is a commit message!"
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path branch commit-message'
+    echo 'Missing args: path branch commit-message'
     exit 2
 fi
 

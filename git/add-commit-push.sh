@@ -1,16 +1,16 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: Commit message.
 #
 # Example usage: sh add-commit-push.sh repository/ "This is a commit message!"
 
-# Check if at least 2 arguments were passed.
+# Check if at least 2 args were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing arguments: path commit-message'
+    echo 'Missing args: path commit-message'
     exit 2
 fi
 

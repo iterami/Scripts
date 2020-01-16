@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh winetricks-update.sh
 
 # Remove existing winetricks.

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh trackpad-external-mouse.sh
 
 # Disable trackpad when external mouse is plugged in.

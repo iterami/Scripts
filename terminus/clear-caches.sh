@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Site name.
 #
 # Example usage: sh clear-caches.sh SiteName
 
-# Check if at least 1 argument was passed.
+# Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
 then
-    echo 'Missing argument: site-name'
+    echo 'Missing arg: site-name'
     exit 2
 fi
 

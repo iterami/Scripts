@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the directory in which your
 #         cloned repository directory will be created.
 #   $2: The GitHub username of the owner of the
@@ -10,10 +10,10 @@
 #
 # Example usage: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
 
-# Check if at least 4 arguments were passed.
+# Check if at least 4 args were passed.
 if [ $# -lt 4 ]
 then
-    echo 'Missing arguments: path owner-username repository your-username'
+    echo 'Missing args: path owner-username repository your-username'
     exit 2
 fi
 

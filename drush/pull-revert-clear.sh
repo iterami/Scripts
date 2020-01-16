@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh pull-revert-clear.sh
 
 # Pull changes from git.

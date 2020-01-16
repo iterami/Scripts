@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh mediadevices-disable.sh
 
 # Disable webcam.

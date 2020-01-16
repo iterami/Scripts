@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh aptdcon-fullupgrade.sh
 
 # Update packages to latest available version

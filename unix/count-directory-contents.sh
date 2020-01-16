@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the target directory.
 #
 # Example usage: sh count-directory-contents.sh target/directory/
 
-# Check if at least 1 argument was passed.
+# Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
 then
-    echo 'Missing argument: path'
+    echo 'Missing arg: path'
     exit 2
 fi
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: Name of the branch you wish to rename.
@@ -8,10 +8,10 @@
 #
 # Example usage: sh rename-branch.sh old-branch new-branch
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path old-branch new-branch'
+    echo 'Missing args: path old-branch new-branch'
     exit 2
 fi
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh desktop-background-black.sh
 
 # Set the background to solid black.

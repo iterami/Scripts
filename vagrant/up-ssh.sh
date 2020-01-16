@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh up-ssh.sh
 
 # Create and configure Vagrant based on the Vagrantfile.

@@ -1,16 +1,16 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: Name of the orphan branch to create.
 #
 # Example usage: sh orphan-branch.sh repository/ gh-pages
 
-# Check if at least 2 arguments were passed.
+# Check if at least 2 args were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing arguments: path orphan-branch'
+    echo 'Missing args: path orphan-branch'
     exit 2
 fi
 

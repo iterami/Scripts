@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: Commit message.
@@ -8,10 +8,10 @@
 #
 # Example usage: sh create-past-commit.sh repositories/repository "This is a commit message!" 1408708800
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path commit-message timestamp'
+    echo 'Missing args: path commit-message timestamp'
     exit 2
 fi
 

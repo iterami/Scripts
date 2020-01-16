@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh clear-replacehistory.sh
 
 # Clear "Replace with:" history.

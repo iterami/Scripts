@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh apt-get-update-distupgrade.sh
 
 # Synchronize installed packages.

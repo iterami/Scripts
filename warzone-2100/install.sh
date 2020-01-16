@@ -1,15 +1,15 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the directory in which
 #         Warzone 2100 will be cloned and installed from.
 #
 # Example usage: sh install.sh warzone2100/
 
-# Check if at least 1 argument was passed.
+# Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
 then
-    echo 'Missing argument: path'
+    echo 'Missing arg: path'
     exit 2
 fi
 

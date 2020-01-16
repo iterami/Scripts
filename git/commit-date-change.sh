@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Required arguments:
+# Required args:
 #   $1: Relative path to the root directory of the
 #         repository you wish to modify.
 #   $2: The hash of the commit you wish to modify.
@@ -8,10 +8,10 @@
 #
 # Example usage: sh commit-date-change.sh repositories/repository 92bbc4d9adb7aa284f5b7dd8b666be8d546c51fe 1408708800
 
-# Check if at least 3 arguments were passed.
+# Check if at least 3 args were passed.
 if [ $# -lt 3 ]
 then
-    echo 'Missing arguments: path hash timestamp'
+    echo 'Missing args: path hash timestamp'
     exit 2
 fi
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh copy-index.sh
 
 # Copy index.css and index.htm for offline viewing.

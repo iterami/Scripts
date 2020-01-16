@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh apparmor-profile-disable.sh
 
 # Disable AppArmor profile for MySQL.

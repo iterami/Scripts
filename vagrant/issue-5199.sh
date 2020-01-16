@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# No arguments.
+# No args.
 # Example usage: sh issue-5199.sh
 
 # Remove synced_folders directory.
