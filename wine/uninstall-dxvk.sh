@@ -11,7 +11,7 @@
 if [ $# -lt 2 ]
 then
     echo 'Missing arg: repo_path wine_path'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the repository directory.

@@ -9,7 +9,7 @@
 if [ $# -lt 1 ]
 then
     echo 'Missing args: path'
-    exit 2
+    exit 1
 fi
 
 # Install libssl1.0.0.

@@ -11,7 +11,7 @@
 if [ $# -lt 2 ]
 then
     echo 'Missing args: path string'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the target directory.

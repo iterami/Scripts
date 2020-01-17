@@ -10,7 +10,7 @@
 if [ $# -lt 1 ]
 then
     echo 'Missing arg: path'
-    exit 2
+    exit 1
 fi
 
 # Return a random directory from the target directory.

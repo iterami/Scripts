@@ -9,7 +9,7 @@
 if [ $# -lt 1 ]
 then
     echo 'Missing arg: site-name'
-    exit 2
+    exit 1
 fi
 
 # Clear caches for dev, test, and live environments.

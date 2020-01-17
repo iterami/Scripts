@@ -12,7 +12,7 @@
 if [ $# -lt 3 ]
 then
     echo 'Missing args: path_unpacker path_mafia path_backup'
-    exit 2
+    exit 1
 fi
 
 # Create temporary file links.

@@ -12,7 +12,7 @@
 if [ $# -lt 3 ]
 then
     echo 'Missing args: path hash timestamp'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the repository root directory.

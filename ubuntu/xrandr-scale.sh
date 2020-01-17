@@ -15,7 +15,7 @@
 if [ $# -lt 7 ]
 then
     echo 'Missing args: output mode_x mode_y panning_x panning_y scale_x scale_y'
-    exit 2
+    exit 1
 fi
 
 # Scale.

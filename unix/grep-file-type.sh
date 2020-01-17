@@ -12,7 +12,7 @@
 if [ $# -lt 3 ]
 then
     echo 'Missing args: path extension string'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the target directory.

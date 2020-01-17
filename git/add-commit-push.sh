@@ -11,7 +11,7 @@
 if [ $# -lt 2 ]
 then
     echo 'Missing args: path commit-message'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the repository root directory.

@@ -12,7 +12,7 @@
 if [ $# -lt 2 ]
 then
     echo 'Missing args: path upstream-branch
-    exit 2
+    exit 1
 fi
 
 # Navigate to the repository root directory.

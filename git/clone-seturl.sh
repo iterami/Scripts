@@ -14,7 +14,7 @@
 if [ $# -lt 4 ]
 then
     echo 'Missing args: path owner-username repository your-username'
-    exit 2
+    exit 1
 fi
 
 # Navigate to the target directory
