@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 
 # No argargs.
 # Example usage: sh make-gtk.sh

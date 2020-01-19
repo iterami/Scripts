@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 
 # No args.
 # Example usage: sh trackpad-external-mouse.sh
