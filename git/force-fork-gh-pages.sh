@@ -18,5 +18,5 @@ fi
 cd $1
 
 # Force gh-pages to update.
-git push -f origin HEAD^:gh-pages
+git push -f origin @^:gh-pages
 git push origin gh-pages
