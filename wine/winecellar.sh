@@ -20,8 +20,8 @@ mkdir -p ~/.iterami/storage/
 cd ~/.iterami/storage/
 
 # Clone Wine repositories at specific version tag.
-git clone --branch wine-$2 https://github.com/wine-mirror/wine.git --depth 1
-git clone --branch v$2 https://github.com/wine-staging/wine-staging.git --depth 1
+git clone https://github.com/wine-mirror/wine.git wine-$2 --branch wine-$2 --depth 1
+git clone https://github.com/wine-staging/wine-staging.git wine-staging-$2 --branch v$2 --depth 1
 
 # Navigate to the prefix directory in the iterami wine cellar
 #   and create it if it doesn't exist.
@@ -29,9 +29,9 @@ mkdir -p ~/.iterami/winecellar/$1/
 cd ~/.iterami/winecellar/$1/
 
 # Build wine.
-~/.iterami/storage/wine/configure
+~/.iterami/storage/wine-$2/configure
 make
 
 # Apply staging patches.
-cd ~/.iterami/storage/wine-staging/staging/
+cd ~/.iterami/storage/wine-staging-$2/staging/
 ./patchinstall.sh DESTDIR="~/.iterami/winecellar/$1/" --all
