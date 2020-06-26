@@ -19,9 +19,18 @@ fi
 mkdir -p ~/.iterami/storage/
 cd ~/.iterami/storage/
 
-# Clone Wine repositories at specific version tag.
-git clone https://github.com/wine-mirror/wine.git wine-$2 --branch wine-$2 --depth 1
-git clone https://github.com/wine-staging/wine-staging.git wine-staging-$2 --branch v$2 --depth 1
+# Clone Wine repositories at specific version tag
+#   if they haven't been cloned yet.
+if [ ! -d "wine-$2" ]; then
+    git clone https://github.com/wine-mirror/wine.git wine-$2 --branch wine-$2 --depth 1
+else
+    echo 'Using previously cloned wine-$2.'
+fi
+if [ ! -d "wine-staging-$2" ]; then
+    git clone https://github.com/wine-staging/wine-staging.git wine-staging-$2 --branch v$2 --depth 1
+else
+    echo 'Using previously cloned wine-staging-$2.'
+fi
 
 # Navigate to the prefix directory in the iterami wine cellar
 #   and create it if it doesn't exist.
