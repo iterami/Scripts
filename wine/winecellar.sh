@@ -31,6 +31,16 @@ if [ ! -d "wine-staging-$2" ]; then
 else
     echo 'Using previously cloned wine-staging-$2.'
 fi
+if [ ! -d "wine-patched-$2" ]; then
+    # Copy wine repo and apply staging patches.
+    cp -R wine-$2 wine-patched-$2
+
+    # Apply staging patches.
+    cd ~/.iterami/storage/wine-staging-$2/staging/
+    ./patchinstall.sh.in DESTDIR="~/.iterami/storage/wine-patched-$2/" --all
+else
+    echo 'Using previously patched wine-patched-$2.'
+fi
 
 # Navigate to the prefix directory in the iterami wine cellar
 #   and create it if it doesn't exist.
@@ -38,9 +48,5 @@ mkdir -p ~/.iterami/winecellar/$1/
 cd ~/.iterami/winecellar/$1/
 
 # Build wine.
-~/.iterami/storage/wine-$2/configure --enable-win64
+~/.iterami/storage/wine-patched-$2/configure --enable-win64
 make
-
-# Apply staging patches.
-cd ~/.iterami/storage/wine-staging-$2/staging/
-./patchinstall.sh DESTDIR="~/.iterami/winecellar/$1/" --all
