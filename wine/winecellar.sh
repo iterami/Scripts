@@ -37,7 +37,7 @@ if [ ! -d "wine-patched-$2" ]; then
 
     # Apply staging patches.
     cd ~/.iterami/storage/wine-staging-$2/staging/
-    ./patchinstall.sh.in DESTDIR="~/.iterami/storage/wine-patched-$2/" --all
+    ./patchinstall.py --destdir="~/.iterami/storage/wine-patched-$2/" --all
 else
     echo 'Using previously patched wine-patched-$2.'
 fi
