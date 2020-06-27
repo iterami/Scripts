@@ -31,11 +31,11 @@ if [ ! -d "wine-staging-$2" ]; then
 else
     echo 'Using previously cloned wine-staging-$2.'
 fi
-if [ ! -d "wine-patched-$2" ]; then
-    # Copy wine repo and apply staging patches.
-    cp -R wine-$2 wine-patched-$2
 
-    # Apply staging patches.
+# Copy wine repo and apply staging patches
+#   if it hasn't been done yet.
+if [ ! -d "wine-patched-$2" ]; then
+    cp -R wine-$2 wine-patched-$2
     cd ~/.iterami/storage/wine-staging-$2/staging/
     ./patchinstall.py --destdir="~/.iterami/storage/wine-patched-$2/" --all
 else
