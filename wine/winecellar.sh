@@ -49,4 +49,5 @@ cd ~/.iterami/winecellar/$1/
 
 # Build wine.
 ~/.iterami/storage/wine-patched-$2/configure --enable-win64
+make depend
 make
