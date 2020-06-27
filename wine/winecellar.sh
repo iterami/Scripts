@@ -38,7 +38,7 @@ mkdir -p ~/.iterami/winecellar/$1/
 cd ~/.iterami/winecellar/$1/
 
 # Build wine.
-~/.iterami/storage/wine-$2/configure
+~/.iterami/storage/wine-$2/configure --enable-win64
 make
 
 # Apply staging patches.
