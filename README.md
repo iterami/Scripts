@@ -1,4 +1,4 @@
 iterami/Scripts
 ---------------
 
-* Contributing: https://iterami.com/Docs.htm/standards/contributing.htm
+* Contributing: https://iterami.github.io/Docs.htm/standards/contributing.htm
