@@ -32,7 +32,7 @@ else
     echo 'Using previously cloned wine-staging-$2.'
 fi
 
-# Copy wine repo and apply staging patches
+# Copy Wine repo and apply staging patches
 #   if it hasn't been done yet.
 if [ ! -d "wine-patched-$2" ]; then
     cp -R wine-$2 wine-patched-$2
@@ -42,12 +42,18 @@ else
     echo 'Using previously patched wine-patched-$2.'
 fi
 
-# Navigate to the prefix directory in the iterami wine cellar
-#   and create it if it doesn't exist.
-mkdir -p ~/.iterami/winecellar/$1/
-cd ~/.iterami/winecellar/$1/
+# Create the 32-bit and 64-bit directories within the prefix directory.
+mkdir -p ~/.iterami/winecellar/$1/32/
+mkdir -p ~/.iterami/winecellar/$1/64/
 
-# Build wine.
+# Build 64-bit Wine.
+cd ~/.iterami/winecellar/$1/64/
 ~/.iterami/storage/wine-patched-$2/configure --enable-win64
+make depend
+make
+
+# Build 32-bit Wine.
+cd ~/.iterami/winecellar/$1/32/
+PKG_CONFIG_PATH=/usr/lib/pkgconfig ~/.iterami/storage/wine-patched-$2/configure --with-wine64=$HOME/.iterami/winecellar/$1/64
 make depend
 make
