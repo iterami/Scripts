@@ -37,7 +37,7 @@ fi
 if [ ! -d "wine-patched-$2" ]; then
     cp -R wine-$2 wine-patched-$2
     cd ~/.iterami/storage/wine-staging-$2/staging/
-    ./patchinstall.py --destdir="~/.iterami/storage/wine-patched-$2/" --all
+    ./patchinstall.py --destdir="$HOME/.iterami/storage/wine-patched-$2/" --all
 else
     echo 'Using previously patched wine-patched-$2.'
 fi
