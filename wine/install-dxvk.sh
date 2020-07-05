@@ -22,7 +22,7 @@ mkdir -p $1
 cd $1
 
 # Clone https://github.com/doitsujin/dxvk.
-git clone --depth 1 https://github.com/doitsujin/dxvk.git
+git clone https://github.com/doitsujin/dxvk.git --depth 1
 cd dxvk/
 
 # TODO: build DLLs.

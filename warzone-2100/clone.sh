@@ -15,7 +15,7 @@ then
 fi
 
 # Clone Warzone 2100 from GitHub.
-git clone --depth 1 https://github.com/Warzone2100/warzone2100.git
+git clone https://github.com/Warzone2100/warzone2100.git --depth 1
 
 # Navigate to the newly created warzone2100 directory.
 cd warzone2100

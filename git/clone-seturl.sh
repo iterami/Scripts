@@ -24,7 +24,7 @@ mkdir -p $1
 cd $1
 
 # git clone the repository from GitHub.
-git clone --depth 1 https://github.com/$2/$3.git
+git clone https://github.com/$2/$3.git --depth 1
 
 # Navigate to the root directory of the cloned repository.
 cd $3
