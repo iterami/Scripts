@@ -6,8 +6,8 @@ set -eu
 #         cloned repository directory will be created.
 #   $2: The GitHub username of the owner of the
 #         cloned repository.
-#   #3: The name of the cloned GitHub repository.
-#   #4: Your GitHub username.
+#   $3: The name of the cloned GitHub repository.
+#   $4: Your GitHub username.
 #
 # Example usage: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
 

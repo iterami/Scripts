@@ -5,8 +5,8 @@ set -eu
 #   $1: Output.
 #   $2: Mode x.
 #   $3: Mode y.
-#   #4: Panning x.
-#   #5: Panning y.
+#   $4: Panning x.
+#   $5: Panning y.
 #   $6: Scale x.
 #   $7: Scale y.
 #
