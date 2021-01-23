@@ -2,7 +2,7 @@
 set -eu
 
 # No args.
-# Example usage: sh install.sh
+# Example usage: sh update.sh
 
 # Install gdebi-core.
 sudo apt-get install gdebi-core
