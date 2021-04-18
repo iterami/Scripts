@@ -2,8 +2,7 @@
 set -eu
 
 # Required args:
-#   $1: Relative path to the directory in which
-#         the iterami/common repository is stored.
+#   $1: Relative path to the forked iterami/common repository.
 #
 # Example usage: sh common-fork-rebase.sh repositories/common
 
