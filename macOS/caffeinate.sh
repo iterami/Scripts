@@ -1,5 +1,5 @@
 #!/bin/sh
-set -eu
+set -eux
 
 # Optional args:
 #   $1: Number of seconds to caffeinate for.
