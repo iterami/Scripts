@@ -2,9 +2,9 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root directory of the
+#   $1: Relative path to the root folder of the
 #         profile you wish to copy.
-#   $2: Relative path to the root directory of the
+#   $2: Relative path to the root folder of the
 #         destination profile.
 #
 # Example usage: sh profile-copy.sh profile-1/ profile-2/

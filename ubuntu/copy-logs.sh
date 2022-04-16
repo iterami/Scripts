@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory into which
+#   $1: Relative path to the folder into which
 #         the log files will be copied.
 #
 # Example usage: sh copy-logs.sh ~/Documents/copied-logs/
@@ -14,7 +14,7 @@ then
     exit 1
 fi
 
-# Create target directory.
+# Create target folder.
 mkdir -p $1
 
 # Copy specific log files.

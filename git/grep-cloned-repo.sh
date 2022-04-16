@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory of the
+#   $1: Relative path to the folder of the
 #         repository you wish to grep.
 #   $2: String to grep.
 #
@@ -15,7 +15,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root directory.
+# Navigate to the repository root folder.
 cd $1
 
 # grep.

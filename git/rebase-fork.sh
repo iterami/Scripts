@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root directory of the
+#   $1: Relative path to the root folder of the
 #         repository you wish to modify.
 #   $2: The upstream branch you wish to fetch and
 #         use to rebase.
@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root directory.
+# Navigate to the repository root folder.
 cd $1
 
 # Fetch from upstream repository.

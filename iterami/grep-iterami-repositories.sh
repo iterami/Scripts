@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory in which the
+#   $1: Relative path to the folder in which the
 #         iterami repositories are stored.
 #   $2: String to grep.
 #
@@ -15,7 +15,7 @@ then
     exit 1
 fi
 
-# Navigate to the target directory.
+# Navigate to the target folder.
 cd $1
 
 # grep.

@@ -15,10 +15,6 @@ WebBrowser.gtk
 # make
 for repository in $repositories
 do
-    echo 'Making iterami/'$repository
-
     cd ~/.iterami/repositories/$repository
     make
-
-    echo
 done

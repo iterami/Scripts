@@ -13,7 +13,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root directory.
+# Navigate to the repository root folder.
 cd $1
 
 # Fetch changes from the upstream gh-pages branch.

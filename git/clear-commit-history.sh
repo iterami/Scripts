@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root directory of the
+#   $1: Relative path to the root folder of the
 #         repository you wish to modify.
 #   $2: Name of the branch you wish to use.
 #   $3: Commit message.
@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root directory.
+# Navigate to the repository root folder.
 cd $1
 
 # Checkout to a temporary branch.

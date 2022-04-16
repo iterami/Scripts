@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root directory of the
+#   $1: Relative path to the root folder of the
 #         repository you wish to modify.
 #   $2: The hash of the commit you wish to modify.
 #   $3: The date you wish to use, in timestamp format.
@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root directory.
+# Navigate to the repository root folder.
 cd $1
 
 # Modify the date of the specified commit.

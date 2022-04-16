@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the evelauncher directory.
+#   $1: Relative path to the evelauncher folder.
 #
 # Example usage: sh linux-symlink.sh evelauncher/
 
@@ -16,7 +16,7 @@ fi
 # Install libssl1.0.0.
 sudo aptdcon -c -i libssl1.0.0
 
-# Navigate to the launcher directory.
+# Navigate to the launcher folder.
 cd $1
 
 # Create symlinks if they don't already exist.

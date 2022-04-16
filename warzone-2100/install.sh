@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory in which
+#   $1: Relative path to the folder in which
 #         Warzone 2100 will be cloned and installed from.
 #
 # Example usage: sh install.sh warzone2100/

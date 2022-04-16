@@ -4,5 +4,5 @@ set -eux
 # No args.
 # Example usage: sh uninstall.sh
 
-# Remove Minecraft directory.
+# Remove Minecraft folder.
 rm -rf ~/.minecraft/

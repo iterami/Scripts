@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory in which the
+#   $1: Relative path to the folder in which the
 #         iterami repositories are stored.
 #
 # Example usage: sh delete-iterami-repositories.sh iterami_repositories/
@@ -16,20 +16,16 @@ fi
 
 # Update this repository to fetch
 #   latest list of iterami repositories.
-echo 'pulling https://github.com/iterami/Scripts'
 git pull
-echo
 
 # Get an array of all iterami repositories.
 . ./iterami-repositories-list.sh
 
-# Navigate to the target directory.
+# Navigate to the target folder.
 cd $1
 
 # Delete each iterami repository.
 for repository in $repositories
 do
     rm -rf $repository
-
-    echo
 done

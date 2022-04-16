@@ -2,8 +2,8 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the doitsujin/dxvk directory.
-#   $2: Relative path to the wine directory in which
+#   $1: Relative path to the doitsujin/dxvk folder.
+#   $2: Relative path to the wine folder in which
 #         doitsujin/dxvk will be uninstalled.
 #
 # Example usage: sh uninstall-dxvk.sh path/to/dxvk/ ~/.wine/
@@ -15,7 +15,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository directory.
+# Navigate to the repository folder.
 cd $1
 
 # Uninstall doitsujin/dxvk.
@@ -26,6 +26,6 @@ export WINEPREFIX=$2
 sudo apt-get remove libvulkan1
 sudo apt-get remove libvulkan1:i386
 
-# Delete the repository directory.
+# Delete the repository folder.
 cd ..
 rm -rf dxvk/

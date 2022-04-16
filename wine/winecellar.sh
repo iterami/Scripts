@@ -14,7 +14,7 @@ then
     exit 1
 fi
 
-# Navigate to the iterami storage directory
+# Navigate to the iterami storage folder
 #   and create it if it doesn't exist.
 mkdir -p ~/.iterami/storage/
 cd ~/.iterami/storage/
@@ -42,7 +42,7 @@ else
     echo 'Using previously patched wine-patched-$2.'
 fi
 
-# Create the 32-bit and 64-bit directories within the prefix directory.
+# Create the 32-bit and 64-bit folders within the prefix folder.
 mkdir -p ~/.iterami/winecellar/$1/32/
 mkdir -p ~/.iterami/winecellar/$1/64/
 

@@ -2,10 +2,10 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory from
-#         which to return a random directory.
+#   $1: Relative path to the folder from
+#         which to return a random folder.
 #
-# Example usage: sh random-directory.sh target/directory/
+# Example usage: sh random-folder.sh target/folder/
 
 # Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
@@ -14,5 +14,5 @@ then
     exit 1
 fi
 
-# Return a random directory from the target directory.
+# Return a random folder from the target folder.
 find $1 -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | shuf -n1

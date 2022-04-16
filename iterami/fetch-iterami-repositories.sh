@@ -2,7 +2,7 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory in which the
+#   $1: Relative path to the folder in which the
 #         iterami repositories are/will_be stored.
 #
 # Example usage: sh fetch-iterami-repositories.sh iterami_repositories/
@@ -16,14 +16,12 @@ fi
 
 # Update this repository to fetch
 #   latest list of iterami repositories.
-echo 'pulling https://github.com/iterami/Scripts'
 git pull
-echo
 
 # Get an array of all iterami repositories.
 . ./iterami-repositories-list.sh
 
-# Navigate to the target directory
+# Navigate to the target folder
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1
@@ -34,15 +32,11 @@ for repository in $repositories
 do
     if [ -d $repository ]
     then
-        echo 'pulling https://github.com/iterami/'$repository
         cd $repository
         git pull
         cd ..
 
     else
         git clone https://github.com/iterami/$repository.git --depth 1
-        echo 'cloned https://github.com/iterami/'$repository
     fi
-
-    echo
 done

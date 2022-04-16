@@ -2,10 +2,9 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the folder
-#         that will be modified.
+#   $1: Relative path to the target folder.
 #
-# Example usage: sh chmod-recursive-775.sh target/folder/
+# Example usage: sh count-folder-contents.sh target/folder/
 
 # Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
@@ -17,5 +16,6 @@ fi
 # Navigate to the target folder.
 cd $1
 
-# Recursively modify permissions.
-chmod -R 755 .
+# Content the contents of this folder
+#   including the folder.
+find . | wc -l

@@ -2,10 +2,10 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root jovan-s/DTAUnpacker directory.
-#   $2: Relative path to the root Mafia 1 install directory.
-#   $3: Relative path to the directory in which you wish to
-#         store the unpacked directories.
+#   $1: Relative path to the root jovan-s/DTAUnpacker folder.
+#   $2: Relative path to the root Mafia 1 install folder.
+#   $3: Relative path to the folder in which you wish to
+#         store the unpacked folders.
 #
 # Example usage: sh dta-unpack-all.sh repositories/DTAUnpacker ~/.wine/drive_c/path/to/mafia backups/
 
@@ -20,7 +20,7 @@ fi
 ln -s "$1/DTAUnpacker.exe" "$2"
 ln -s "$1/tmp.dll" "$2"
 
-# Navigate to the Mafia installation directory and run DTAUnpacker via wine.
+# Navigate to the Mafia installation folder and run DTAUnpacker via wine.
 cd "$2"
 wine DTAUnpacker.exe A0.dta 0xD8D0A975 0x467ACDE0 # sounds/
 wine DTAUnpacker.exe A1.dta 0x3D98766C 0xDE7009CD # missions/
@@ -36,7 +36,7 @@ wine DTAUnpacker.exe AA.dta 0x5342760C 0xEDEAC652 # tables/
 wine DTAUnpacker.exe AB.dta 0xD8D0A975 0x467ACDE0 # sounds/music
 #wine DTAUnpacker.exe AC.dta 0x43876FEA 0x900CDBA8
 
-# Move unpacked directories.
+# Move unpacked folders.
 mv anims "$3"
 mv DIFF "$3"
 mv MAPS "$3"

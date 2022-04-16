@@ -2,9 +2,9 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the directory in which the
+#   $1: Relative path to the folder in which the
 #         doitsujin/dxvk repository will be stored.
-#   $2: Relative path to the wine directory in which
+#   $2: Relative path to the wine folder in which
 #         doitsujin/dxvk will be installed.
 #
 # Example usage: sh install-dxvk.sh path/to/repository/ ~/.wine/
@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# Navigate to the target directory
+# Navigate to the target folder
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1
