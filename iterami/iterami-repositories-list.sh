@@ -13,7 +13,6 @@ BaseConverter.htm
 BinaryDataEndecoder.htm
 BlindMouse.htm
 Bookmarklets.htm
-Browser.gtk
 Chromium-iterami-Theme
 clearundostack
 Click.htm
@@ -66,7 +65,6 @@ Poem.htm
 Profiler.htm
 QjnyYap.htm
 Rain-2D.htm
-random_number_test.gtk
 random_number_test.htm
 RandomRepository.htm
 RandomSCP.htm
@@ -99,7 +97,6 @@ UnitConverter.htm
 URI.htm
 Warped.htm
 WASD-2D.htm
-WebBrowser.gtk
 WindowInfo.htm
 WoW-iterami-Addon
 WZ2100-AI.js

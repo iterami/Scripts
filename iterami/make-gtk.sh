@@ -6,10 +6,7 @@ set -eux
 
 # An array of all iterami GTK repositories.
 repositories='
-Browser.gtk
-random_number_test.gtk
 TextEditor.gtk
-WebBrowser.gtk
 '
 
 # make
