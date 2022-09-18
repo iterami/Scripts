@@ -32,7 +32,7 @@ EVE-Overviews.yaml
 Finances.htm
 Fireworks-2D.htm
 FractalRunner-2D3D.htm
-GMod-iterami-Addon
+GMod-Addons.lua
 GradientIllusion.htm
 Guess.htm
 Guides.htm
@@ -47,7 +47,7 @@ LayeredSnake-2D3D.htm
 LocalStorage.htm
 Match.htm
 Math.htm
-MC-iterami-DataPacks
+MC-DataPacks
 MediaDevicesTest.htm
 Multiverse.htm
 MultiverseEditor.htm
@@ -94,6 +94,6 @@ URI.htm
 Warped.htm
 WASD-2D.htm
 WindowInfo.htm
-WoW-iterami-Addon
+WoW-Addons.lua
 WZ2100-AI.js
 '
