@@ -2,12 +2,12 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root folder of the
-#         repository you wish to modify.
+#   $1: Relative path to the root folder of
+#         the repo you wish to modify.
 #   $2: The upstream branch you wish to fetch and
 #         use to rebase.
 #
-# Example usage: sh rebase-fork.sh repository/ master
+# Example usage: sh rebase-fork.sh repo/ master
 
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]
@@ -16,10 +16,10 @@ then
     exit 1
 fi
 
-# Navigate to the repository root folder.
+# Navigate to the repo root folder.
 cd $1
 
-# Fetch from upstream repository.
+# Fetch from upstream repo.
 git fetch upstream
 
 # Rebase from specified branch.

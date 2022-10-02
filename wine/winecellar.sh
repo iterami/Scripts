@@ -19,7 +19,7 @@ fi
 mkdir -p ~/.iterami/storage/
 cd ~/.iterami/storage/
 
-# Clone Wine repositories at specific version tag
+# Clone Wine repos at specific version tag
 #   if they haven't been cloned yet.
 if [ ! -d "wine-$2" ]; then
     git clone https://github.com/wine-mirror/wine.git wine-$2 --branch wine-$2 --depth 1

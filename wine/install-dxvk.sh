@@ -3,11 +3,11 @@ set -eux
 
 # Required args:
 #   $1: Relative path to the folder in which the
-#         doitsujin/dxvk repository will be stored.
+#         doitsujin/dxvk repo will be stored.
 #   $2: Relative path to the wine folder in which
 #         doitsujin/dxvk will be installed.
 #
-# Example usage: sh install-dxvk.sh path/to/repository/ ~/.wine/
+# Example usage: sh install-dxvk.sh path/to/repo/ ~/.wine/
 
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]

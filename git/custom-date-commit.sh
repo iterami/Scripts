@@ -2,12 +2,12 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root folder of the
-#         repository you wish to modify.
+#   $1: Relative path to the root folder of
+#         the repo you wish to modify.
 #   $2: Commit message.
 #   $3: The date you wish to use, in timestamp format.
 #
-# Example usage: sh create-past-commit.sh repositories/repository "This is a commit message!" 1408708800
+# Example usage: sh create-past-commit.sh repos/repo "This is a commit message!" 1408708800
 
 # Check if at least 3 args were passed.
 if [ $# -lt 3 ]
@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root folder.
+# Navigate to the repo root folder.
 cd $1
 
 # Add all changes.

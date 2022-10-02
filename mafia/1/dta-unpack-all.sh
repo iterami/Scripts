@@ -7,7 +7,7 @@ set -eux
 #   $3: Relative path to the folder in which you wish to
 #         store the unpacked folders.
 #
-# Example usage: sh dta-unpack-all.sh repositories/DTAUnpacker ~/.wine/drive_c/path/to/mafia backups/
+# Example usage: sh dta-unpack-all.sh repos/DTAUnpacker ~/.wine/drive_c/path/to/mafia backups/
 
 # Check if at least 3 args were passed.
 if [ $# -lt 3 ]

@@ -15,7 +15,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository folder.
+# Navigate to the repo folder.
 cd $1
 
 # Uninstall doitsujin/dxvk.
@@ -26,6 +26,6 @@ export WINEPREFIX=$2
 sudo apt-get remove libvulkan1
 sudo apt-get remove libvulkan1:i386
 
-# Delete the repository folder.
+# Delete the repo folder.
 cd ..
 rm -rf dxvk/

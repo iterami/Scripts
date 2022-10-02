@@ -2,10 +2,10 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the root folder of the
-#         repository you wish to modify.
+#   $1: Relative path to the root folder of
+#         the repo you wish to modify.
 #
-# Example usage: sh gh-pages-from-master.sh repository/
+# Example usage: sh gh-pages-from-master.sh repo/
 
 # Check if at least 1 arg was passed.
 if [ $# -lt 1 ]
@@ -14,7 +14,7 @@ then
     exit 1
 fi
 
-# Navigate to the repository root folder.
+# Navigate to the repo root folder.
 cd $1
 
 # Checkout the gh-pages branch,

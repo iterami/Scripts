@@ -2,11 +2,11 @@
 set -eux
 
 # Required args:
-#   $1: Relative path to the folder in which the
-#         iterami repositories are/will_be stored.
+#   $1: Relative path to the folder in which
+#         the iterami repos are/will_be stored.
 #   $2: Commit message.
 #
-# Example usage: sh commit-iterami-repositories.sh iterami_repositories/ 'This is a commit message!'
+# Example usage: sh commit-iterami-repos.sh iterami_repos/ 'This is a commit message!'
 
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]
@@ -15,24 +15,24 @@ then
     exit 1
 fi
 
-# Update this repository to fetch
-#   latest list of iterami repositories.
+# Update this repo to fetch
+#   latest list of iterami repos.
 git pull
 
-# Get an array of all iterami repositories.
-. ./iterami-repositories-list.sh
+# Get an array of all iterami repos.
+. ./iterami-repos-list.sh
 
 # Navigate to the target folder
 #   and create it if it doesn't exist.
 mkdir -p $1
 cd $1
 
-# Commit cloned iterami repositories.
-for repository in $repositories
+# Commit cloned iterami repos.
+for repo in $repos
 do
-    if [ -d $repository ]
+    if [ -d $repo ]
     then
-        cd $repository
+        cd $repo
         if [ -n "$(git status --porcelain)" ]; then
             git add -A
             git commit -m "$2"

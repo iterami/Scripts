@@ -4,14 +4,14 @@ set -eux
 # No argargs.
 # Example usage: sh make-gtk.sh
 
-# An array of all iterami GTK repositories.
-repositories='
+# An array of all iterami GTK repos.
+repos='
 TextEditor.gtk
 '
 
 # make
-for repository in $repositories
+for repo in $repos
 do
-    cd ~/.iterami/repositories/$repository
+    cd ~/.iterami/repos/$repo
     make
 done

@@ -3,18 +3,18 @@ set -eux
 
 # Required args:
 #   $1: Relative path to the folder in which your
-#         cloned repository folder will be created.
-#   $2: The GitHub username of the owner of the
-#         cloned repository.
-#   $3: The name of the cloned GitHub repository.
+#         cloned repo folder will be created.
+#   $2: The GitHub username of the owner of
+#         the cloned repo.
+#   $3: The name of the cloned GitHub repo.
 #   $4: Your GitHub username.
 #
-# Example usage: sh clone-seturl.sh repositories/ iterami Config-Scripts iterami
+# Example usage: sh clone-seturl.sh repos/ iterami Config-Scripts iterami
 
 # Check if at least 4 args were passed.
 if [ $# -lt 4 ]
 then
-    echo 'Missing args: path owner-username repository your-username'
+    echo 'Missing args: path owner-username repo your-username'
     exit 1
 fi
 
@@ -23,10 +23,10 @@ fi
 mkdir -p $1
 cd $1
 
-# git clone the repository from GitHub.
+# git clone the repo from GitHub.
 git clone https://github.com/$2/$3.git --depth 1
 
-# Navigate to the root folder of the cloned repository.
+# Navigate to the root folder of the cloned repo.
 cd $3
 
 # Set the origin remote url.
