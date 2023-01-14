@@ -20,4 +20,4 @@ fi
 cd $1
 
 # grep.
-grep -lr --include $2 $3
+grep -lr --include=$2 $3
