@@ -12,7 +12,7 @@ set -eux
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing args: profile-copy profile-destination
+    echo 'Missing args: profile-copy profile-destination'
     exit 1
 fi
 

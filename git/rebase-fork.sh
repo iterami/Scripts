@@ -12,7 +12,7 @@ set -eux
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]
 then
-    echo 'Missing args: path upstream-branch
+    echo 'Missing args: path upstream-branch'
     exit 1
 fi
 
