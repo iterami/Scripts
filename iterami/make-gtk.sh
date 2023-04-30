@@ -12,6 +12,6 @@ TextEditor.gtk
 # make
 for repo in $repos
 do
-    cd ~/.iterami/repos/$repo
+    cd ~/iterami/repos/$repo
     make
 done

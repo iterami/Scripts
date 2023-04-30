@@ -16,8 +16,8 @@ fi
 
 # Navigate to the iterami storage folder
 #   and create it if it doesn't exist.
-mkdir -p ~/.iterami/storage/
-cd ~/.iterami/storage/
+mkdir -p ~/iterami/storage/
+cd ~/iterami/storage/
 
 # Clone Wine repos at specific version tag
 #   if they haven't been cloned yet.
@@ -36,24 +36,24 @@ fi
 #   if it hasn't been done yet.
 if [ ! -d "wine-patched-$2" ]; then
     cp -R wine-$2 wine-patched-$2
-    cd ~/.iterami/storage/wine-staging-$2/staging/
-    ./patchinstall.py --destdir="$HOME/.iterami/storage/wine-patched-$2/" --all
+    cd ~/iterami/storage/wine-staging-$2/staging/
+    ./patchinstall.py --destdir="$HOME/iterami/storage/wine-patched-$2/" --all
 else
     echo 'Using previously patched wine-patched-$2.'
 fi
 
 # Create the 32-bit and 64-bit folders within the prefix folder.
-mkdir -p ~/.iterami/winecellar/$1/32/
-mkdir -p ~/.iterami/winecellar/$1/64/
+mkdir -p ~/iterami/winecellar/$1/32/
+mkdir -p ~/iterami/winecellar/$1/64/
 
 # Build 64-bit Wine.
-cd ~/.iterami/winecellar/$1/64/
-~/.iterami/storage/wine-patched-$2/configure --enable-win64
+cd ~/iterami/winecellar/$1/64/
+~/iterami/storage/wine-patched-$2/configure --enable-win64
 make depend
 make
 
 # Build 32-bit Wine.
-cd ~/.iterami/winecellar/$1/32/
-PKG_CONFIG_PATH=/usr/lib/pkgconfig ~/.iterami/storage/wine-patched-$2/configure --with-wine64=$HOME/.iterami/winecellar/$1/64
+cd ~/iterami/winecellar/$1/32/
+PKG_CONFIG_PATH=/usr/lib/pkgconfig ~/iterami/storage/wine-patched-$2/configure --with-wine64=$HOME/.iterami/winecellar/$1/64
 make depend
 make
