@@ -54,6 +54,6 @@ make
 
 # Build 32-bit Wine.
 cd ~/iterami/winecellar/$1/32/
-PKG_CONFIG_PATH=/usr/lib/pkgconfig ~/iterami/storage/wine-patched-$2/configure --with-wine64=$HOME/.iterami/winecellar/$1/64
+PKG_CONFIG_PATH=/usr/lib/pkgconfig ~/iterami/storage/wine-patched-$2/configure --with-wine64=$HOME/iterami/winecellar/$1/64
 make depend
 make
