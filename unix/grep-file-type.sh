@@ -20,4 +20,4 @@ fi
 cd $1
 
 # grep.
-grep -ilr --include=$2 $3
+grep -Filr --include=$2 $3

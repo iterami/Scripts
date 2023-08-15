@@ -19,4 +19,4 @@ fi
 cd $1
 
 # grep.
-grep -ilr --exclude-dir=".git" $2
+grep -Filr --exclude-dir=".git" $2
