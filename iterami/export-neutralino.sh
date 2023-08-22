@@ -45,5 +45,11 @@ echo "<script src=neutralino.js></script>
 <script src=export.js></script>
 <script>neutralino_init();</script>" >> resources/index.htm
 
-# Copy files from common.
+# Copy and modify files from common.
 cp -a ~/iterami/repos/common/. resources/common/
+rm -rf resources/common/c/
+rm -rf resources/common/.git/
+rm -rf resources/common/404.html
+rm -rf resources/common/index.htm
+rm -rf resources/common/LICENSE.md
+rm -rf resources/common/README.md
