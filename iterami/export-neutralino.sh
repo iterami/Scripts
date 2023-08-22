@@ -44,6 +44,7 @@ rm -rf resources/LICENSE.md
 echo "<script src=neutralino.js></script>
 <script src=export.js></script>
 <script>neutralino_init();</script>" >> resources/index.htm
+echo "  * [neutralinojs/neutralinojs](https://github.com/neutralinojs/neutralinojs)" >> README.md
 
 # Copy and modify files from common.
 cp -a ~/iterami/repos/common/. resources/common/
