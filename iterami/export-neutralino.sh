@@ -40,3 +40,6 @@ mv resources/README.md .
 rm -rf resources/.git/
 rm -rf resources/404.html
 rm -rf resources/LICENSE.md
+
+# Copy files from common.
+cp -a ~/iterami/repos/common/. resources/common/

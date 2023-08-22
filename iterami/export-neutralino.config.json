@@ -24,7 +24,7 @@
       "alwaysOnTop": false,
       "borderless": false,
       "center": true,
-      "enableInspector": false,
+      "enableInspector": true,
       "exitProcessOnClose": false,
       "fullScreen": false,
       "height": 500,
