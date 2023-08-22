@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eux
 
-# No argargs.
+# No args.
 # Example usage: sh make-gtk.sh
 
 # An array of all iterami GTK repos.
