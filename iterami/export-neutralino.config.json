@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
+  "applicationId": "iterami.testapp",
+  "cli": {
+    "binaryName": "testapp",
+    "binaryVersion": "4.13.0",
+    "clientLibrary": "/resources/neutralino.js",
+    "clientVersion": "3.11.0",
+    "extensionsPath": "/extensions/",
+    "resourcesPath": "/resources/"
+  },
+  "defaultMode": "window",
+  "documentRoot": "/resources/",
+  "enableExtensions": false,
+  "enableNativeAPI": true,
+  "enableServer": true,
+  "exportAuthInfo": false,
+  "logging": {
+    "enabled": false,
+    "writeToLogFile": true
+  },
+  "modes": {
+    "window": {
+      "alwaysOnTop": false,
+      "borderless": false,
+      "center": true,
+      "enableInspector": false,
+      "exitProcessOnClose": false,
+      "fullScreen": false,
+      "height": 500,
+      "hidden": false,
+      "maximize": true,
+      "minHeight": 1,
+      "minWidth": 200,
+      "resizable": true,
+      "title": "MultiverseViewer.htm",
+      "useSavedState": true,
+      "width": 800
+    }
+  },
+  "port": 0,
+  "tokenSecurity": "one-time",
+  "url": "/index.htm",
+  "version": "1.0.0"
+}
