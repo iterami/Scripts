@@ -26,6 +26,7 @@ cd $2
 neu create $3
 cd $3
 cp -f ~/iterami/repos/Scripts/iterami/export-neutralino.config.json neutralino.config.json
+cp -f ~/iterami/repos/Scripts/iterami/export-neutralino.js resources/export.js
 mv resources/js/neutralino.js resources/
 rm -rf .github/
 rm -rf resources/icons/
@@ -40,6 +41,9 @@ mv resources/README.md .
 rm -rf resources/.git/
 rm -rf resources/404.html
 rm -rf resources/LICENSE.md
+echo "<script src=neutralino.js></script>
+<script src=export.js></script>
+<script>neutralino_init();</script>" >> resources/index.htm
 
 # Copy files from common.
 cp -a ~/iterami/repos/common/. resources/common/
