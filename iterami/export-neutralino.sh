@@ -22,18 +22,11 @@ fi
 mkdir -p $2
 cd $2
 
-# Create and modify the neutralino app.
-neu create $3
+# Copy and modify the default neutralino app.
+mkdir -p $3
 cd $3
-cp -f ~/iterami/repos/Scripts/iterami/export-neutralino.config.json neutralino.config.json
-cp -f ~/iterami/repos/Scripts/iterami/export-neutralino.js resources/export.js
-mv resources/js/neutralino.js resources/
-rm -rf .github/
-rm -rf resources/icons/
-rm -rf resources/js/
-rm -rf resources/index.html
-rm -rf resources/styles.css
-rm -rf README.md
+cp -a ~/iterami/repos/Scripts/iterami/export-neutralino/. .
+neu update
 
 # Copy and modify files from the exported repo.
 cp -a $1/. resources/
