@@ -3,9 +3,9 @@
   "applicationId": "iterami.CHANGEME",
   "cli": {
     "binaryName": "CHANGEME",
-    "binaryVersion": "4.13.0",
+    "binaryVersion": "nightly",
     "clientLibrary": "/resources/neutralino.js",
-    "clientVersion": "3.11.0",
+    "clientVersion": "nightly",
     "extensionsPath": "/extensions/",
     "resourcesPath": "/resources/"
   },
