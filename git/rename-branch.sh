@@ -22,8 +22,8 @@ cd $1
 # Rename the local branch.
 git branch -m $2 $3
 
-# Delete the old branch.
-git push origin :$2
-
 # Push to the remote to use the new branch.
 git push --set-upstream origin $3
+
+# Delete the old branch.
+git push origin :$2
