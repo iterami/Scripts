@@ -7,7 +7,7 @@ set -eux
 #   $2: The upstream branch you wish to fetch and
 #         use to rebase.
 #
-# Example usage: sh rebase-fork.sh repo/ master
+# Example usage: sh rebase-fork.sh repo/ main
 
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]

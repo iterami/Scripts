@@ -7,7 +7,7 @@ set -eux
 #   $2: Name of the branch you wish to use.
 #   $3: Commit message.
 #
-# Example usage: sh clear-commit-history.sh repo/ master "This is a commit message!"
+# Example usage: sh clear-commit-history.sh repo/ main "This is a commit message!"
 
 # Check if at least 3 args were passed.
 if [ $# -lt 3 ]
