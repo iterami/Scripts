@@ -1,12 +1,12 @@
 #!/bin/sh
-set -eux
+set -eu
 
 # Required args:
 #   $1: Relative path to the folder of
 #         the repo you wish to grep.
 #   $2: String to grep.
 #
-# Example usage: sh grep-cloned-repo.sh repo/ "string"
+# Example usage: sh grep-repo.sh repo/ "string"
 
 # Check if at least 2 args were passed.
 if [ $# -lt 2 ]
@@ -19,4 +19,4 @@ fi
 cd $1
 
 # grep.
-grep -Filr --exclude-dir=".git" $2
+git grep $2 $(git rev-list --all)
